@@ -25,6 +25,13 @@ Our training dataset is:
 
 Our testing dataset is:
 
+## Applications
+1. Medical (polyp segmentation)
+2. Agriculture (locust detection to prevent invasion)
+3. Art (e.g., for photorealistic blending, or recreational art)
+4. Military (for discriminating enemies)
+5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery),
+
 ## Citation
 Please cite our paper if you find the work useful: 
 
