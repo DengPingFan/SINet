@@ -4,6 +4,10 @@ Results of our SINet on four datasets (e.g., CHAMELEON[1], CPD1K-Test[2], CAMO-T
 
 https://drive.google.com/open?id=1fHAwcUwCjBKSw8eJ9OaQ9_0kW6VtDZ6L
 
+Performance of competing methods can be found:
+
+https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J
+
 [1] Animal camouflage analysis: Chameleon database. Unpublished Manuscript, 2018. <br>
 [2] Detection of people with camouflage pattern via dense deconvolution network. IEEE SPL, 2018.<br>
 [3] Anabranch network for camouflaged object segmentation. CVIU, 2019.<br>
