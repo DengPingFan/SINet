@@ -5,6 +5,7 @@ Figure 1: Given an input image (a), we present the ground-truth for (b) panoptic
 ![alt text](./CmpResults.png)
 Figure 2: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
 
+## Results
 Results of our SINet on four datasets (e.g., CHAMELEON[1], CPD1K-Test[2], CAMO-Test[3], and COD10K-Test[4]) can be found:<br> 
 
 https://drive.google.com/open?id=1fHAwcUwCjBKSw8eJ9OaQ9_0kW6VtDZ6L
@@ -19,15 +20,18 @@ References of datasets<br>
 [3] Anabranch network for camouflaged object segmentation. CVIU, 2019.<br>
 [4] Camouflaged Object Detection, CVPR, 2020.
 
+## Datasets
 Our training dataset is:
 
 Our testing dataset is:
 
 ## Citation
-Please cite our paper if you find the work useful:<br>
-  @inproceedings{fan2020Camouflage,
-    title={Camouflaged Object Detection},
-    author={Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling},
-    booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
-    year={2020}
-  }
+Please cite our paper if you find the work useful: 
+
+	@inproceedings{fan2020Camouflage,
+  	title={Camouflaged Object Detection},
+  	author={Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling},
+  	booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  	year={2020}
+	}
+  
