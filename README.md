@@ -27,6 +27,7 @@ Our testing dataset is:
 
 ## Applications
 1. Medical (polyp segmentation)
+![alt text](./PolypSegmentation.png)
 2. Agriculture (locust detection to prevent invasion)
 3. Art (e.g., for photorealistic blending, or recreational art)
 4. Military (for discriminating enemies)
