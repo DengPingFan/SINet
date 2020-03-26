@@ -1,5 +1,6 @@
 # SINet (CVPR2020)
 Search and Identification Net (SINet) for Camouflaged Object Detection (code will be updated soon)<br>
+![alt text](./COD-task.png)
 ![alt text](./CmpResults.png)
 
 Results of our SINet on four datasets (e.g., CHAMELEON[1], CPD1K-Test[2], CAMO-Test[3], and COD10K-Test[4]) can be found:<br> 
