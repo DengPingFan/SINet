@@ -8,7 +8,20 @@ Performance of competing methods can be found:
 
 https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J
 
+References of datasets
 [1] Animal camouflage analysis: Chameleon database. Unpublished Manuscript, 2018. <br>
 [2] Detection of people with camouflage pattern via dense deconvolution network. IEEE SPL, 2018.<br>
 [3] Anabranch network for camouflaged object segmentation. CVIU, 2019.<br>
 [4] Camouflaged Object Detection, CVPR, 2020.
+
+Our training dataset is:
+
+Our testing dataset is:
+
+Please cite our paper if necessary:
+@inproceedings{fan2020Camouflage,
+  title={Camouflaged Object Detection},
+  author={Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  year={2020}
+}
