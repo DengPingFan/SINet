@@ -23,10 +23,11 @@ Our training dataset is:
 
 Our testing dataset is:
 
-Please cite our paper if necessary:<br>
-@inproceedings{fan2020Camouflage,
-  title={Camouflaged Object Detection},
-  author={Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling},
-  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
-  year={2020}
-}
+## Citation
+Please cite our paper if you find the work useful:<br>
+  @inproceedings{fan2020Camouflage,
+    title={Camouflaged Object Detection},
+    author={Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling},
+    booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+    year={2020}
+  }
