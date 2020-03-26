@@ -23,7 +23,7 @@ Our training dataset is:
 
 Our testing dataset is:
 
-Please cite our paper if necessary:
+Please cite our paper if necessary:<br>
 @inproceedings{fan2020Camouflage,
   title={Camouflaged Object Detection},
   author={Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling},
