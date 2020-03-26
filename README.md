@@ -8,7 +8,7 @@ Performance of competing methods can be found:
 
 https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J
 
-References of datasets
+References of datasets<br>
 [1] Animal camouflage analysis: Chameleon database. Unpublished Manuscript, 2018. <br>
 [2] Detection of people with camouflage pattern via dense deconvolution network. IEEE SPL, 2018.<br>
 [3] Anabranch network for camouflaged object segmentation. CVIU, 2019.<br>
