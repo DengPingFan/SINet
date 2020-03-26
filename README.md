@@ -1,6 +1,7 @@
 # SINet (CVPR2020)
 Search and Identification Net (SINet) for Camouflaged Object Detection (code will be updated soon)<br>
 ![alt text](./COD-task.png)
+Given an input image (a), we present the ground-truth for (b) panoptic segmentation [29] (which detects generic objects including stuff and things), (c) salient instance/object detection (which detects objects that grasp human attention), and (d) the proposed camouflaged object detection task, where the goal is to detect objects that have a similar pattern (e.g., edge, texture, or color) to the natural habitat. In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify.
 ![alt text](./CmpResults.png)
 
 Results of our SINet on four datasets (e.g., CHAMELEON[1], CPD1K-Test[2], CAMO-Test[3], and COD10K-Test[4]) can be found:<br> 
