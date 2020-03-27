@@ -38,6 +38,10 @@ PraNet: Parallel Reverse Attention Network for Polyp Segmentation, MICCAI 2020 (
 4. Military (for discriminating enemies)
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery),
 
+## Paper
+
+http://dpfan.net/wp-content/uploads/COD_CVPR20-OmittedModel.pdf
+
 ## Citation
 Please cite our paper if you find the work useful: 
 
