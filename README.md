@@ -23,7 +23,11 @@ References of datasets<br>
 ## Datasets
 Our training dataset is:
 
+https://drive.google.com/open?id=1aH9_0w3zCVoh9ttrU10xjCYcjuvPuzWY
+
 Our testing dataset is:
+
+https://drive.google.com/open?id=1AeJBD-FemHSVdprC8_6BOi41Wt5KgMIt
 
 ## Applications
 1. Medical (polyp segmentation)
