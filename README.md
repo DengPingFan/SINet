@@ -63,9 +63,9 @@ PraNet: Parallel Reverse Attention Network for Polyp Segmentation, MICCAI 2020 (
 2. Agriculture (locust detection to prevent invasion)
 3. Art (e.g., for photorealistic blending, or recreational art)
 4. Military (for discriminating enemies)
-<div align=center><img width="600" height="400" src="Telescope.png"/></div>
+<div align=center><img width="600" height="350" src="Telescope.png"/></div>
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
-<div align=center><img width="600" height="400" src="Search-and-Rescue.png"/></div>
+<div align=center><img width="600" height="300" src="Search-and-Rescue.png"/></div>
 
 ## Paper
 
