@@ -5,6 +5,9 @@ Figure 1: Given an input image (a), we present the ground-truth for (b) panoptic
 ![alt text](./CmpResults.png)
 Figure 2: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
 
+## Task Relationship
+![alt text](./TaskDifference.png)
+
 ## Results
 Results of our SINet on four datasets (e.g., CHAMELEON[1], CPD1K-Test[2], CAMO-Test[3], and COD10K-Test[4]) can be found:<br> 
 
