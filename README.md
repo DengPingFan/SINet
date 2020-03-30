@@ -38,7 +38,7 @@ References of datasets<br>
 [4] Camouflaged Object Detection, CVPR, 2020.
 
 ## The Proposed COD10K Datasets
-![alt text](./COD10K-1.png)
+<div align=center><img width="150" height="150" src="COD10K-1.png"/></div>
 
 ![alt text](./COD10K-2.png)
 
