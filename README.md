@@ -23,6 +23,14 @@ Figure 3: Qualitative results of our SINet and two top-performing baselines on C
 Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See x 5.1 for training details: (i) CPD1K,
 (ii) CAMO, (iii) COD10K, (iv) CPD1K + CAMO + COD10K. Note that the ANet-SRM model (only trained on CAMO) does not have a publicly available code, thus other results are not available. $E_\phi$ denotes mean Emeasure. Baseline models are trained using the training setting (iv). 
 
+<div align=center><img width="860" height="1060" src="SubClassResults.png"/></div>
+Table 2: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(1/2). The best
+score of each category is highlighted in bold.
+
+<div align=center><img width="850" height="1050" src="SubClassResults-1.png"/></div>
+Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
+score of each category is highlighted in bold.
+
 Results of our SINet on four datasets (e.g., CHAMELEON[1], CPD1K-Test[2], CAMO-Test[3], and COD10K-Test[4]) can be found:<br> 
 
 https://drive.google.com/open?id=1fHAwcUwCjBKSw8eJ9OaQ9_0kW6VtDZ6L
