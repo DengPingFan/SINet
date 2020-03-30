@@ -4,7 +4,7 @@ Search and Identification Net (SINet) for Camouflaged Object Detection (code wil
 ## Task Relationship
 ![alt text](./TaskRelationship.png)
 
-References of SOD benchmark works<br>
+References of salient object detection (SOD) benchmark works<br>
 [1] VSOD: Shifting More Attention to Video Salient Object Detection. CVPR, 2019. <br>
 [2] RGB SOD: Salient Objects in Clutter: Bringing Salient Object Detection to the Foreground. ECCV, 2018.<br>
 [3] RGB-D SOD: Rethinking RGB-D Salient Object Detection: Models, Datasets, and Large-Scale Benchmarks. TNNLS, 2020.<br>
