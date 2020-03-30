@@ -37,7 +37,14 @@ References of datasets<br>
 [3] Anabranch network for camouflaged object segmentation. CVIU, 2019.<br>
 [4] Camouflaged Object Detection, CVPR, 2020.
 
-## Datasets
+## The Proposed COD10K Datasets
+![alt text](./COD10K-1.png)
+
+![alt text](./COD10K-2.png)
+
+![alt text](./COD10K-3.png)
+
+## Training and Testing Sets
 Our training dataset is:
 
 https://drive.google.com/open?id=1aH9_0w3zCVoh9ttrU10xjCYcjuvPuzWY
