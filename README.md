@@ -3,6 +3,7 @@ Search and Identification Net (SINet) for Camouflaged Object Detection (code wil
 
 ## Task Relationship
 ![alt text](./TaskRelationship.png)
+Figure 1: Task relationship.
 
 References of salient object detection (SOD) benchmark works<br>
 [1] VSOD: Shifting More Attention to Video Salient Object Detection. CVPR, 2019. <br>
@@ -12,11 +13,11 @@ References of salient object detection (SOD) benchmark works<br>
 
 
 ![alt text](./CamouflagedTask.png)
-Figure 1: Given an input image (a), we present the ground-truth for (b) panoptic segmentation (which detects generic objects including stuff and things), (c) salient instance/object detection (which detects objects that grasp human attention), and (d) the proposed camouflaged object detection task, where the goal is to detect objects that have a similar pattern (e.g., edge, texture, or color) to the natural habitat. In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify. This task is far more challenging than the traditional salient object detection or generic object detection. <br>
+Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation (which detects generic objects including stuff and things), (c) salient instance/object detection (which detects objects that grasp human attention), and (d) the proposed camouflaged object detection task, where the goal is to detect objects that have a similar pattern (e.g., edge, texture, or color) to the natural habitat. In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify. This task is far more challenging than the traditional salient object detection or generic object detection. <br>
 
 ## Results
 ![alt text](./CmpResults.png)
-Figure 2: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
+Figure 3: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
 
 ![alt text](./QuantitativeResults.png)
 Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See x 5.1 for training details: (i) CPD1K,
