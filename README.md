@@ -39,10 +39,13 @@ References of datasets<br>
 
 ## The Proposed COD10K Datasets
 <div align=center><img width="850" height="1070" src="COD10K-1.png"/></div>
+Figure 4: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.
 
-![alt text](./COD10K-2.png)
+<div align=center><img width="850" height="680" src="COD10K-2.png"/></div>
+Figure 5: Annotation diversity and meticulousness in the proposed COD10K dataset. Instead of only providing coarsegrained object-level annotations with the three major types of bias (e.g., Watermark embedded, Coarse annotation, and Occlusion) in prior works, we offer six different annotations, which include edge-level (4rd row), object-level (5rd row), instance-level (6rd row), bounding boxes (7rd row), and attributes (8rd row). Refer to the manuscript for attribute details.
 
-![alt text](./COD10K-3.png)
+<div align=center><img width="850" height="440" src="COD10K-3.png"/></div>
+Figure 6: Regularized quality control during our labeling reverification stage. Strictly adheres to the four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.
 
 ## Training and Testing Sets
 Our training dataset is:
