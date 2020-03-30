@@ -25,11 +25,11 @@ Table 1: Quantitative results on different datasets. The best scores are highlig
 
 <div align=center><img width="860" height="1060" src="SubClassResults.png"/></div>
 Table 2: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(1/2). The best
-score of each category is highlighted in bold.<br>
+score of each category is highlighted in bold. <br>
 
 <div align=center><img width="850" height="1050" src="SubClassResults-1.png"/></div>
 Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
-score of each category is highlighted in bold.
+score of each category is highlighted in bold. <br>
 
 Results of our SINet on four datasets (e.g., CHAMELEON[1], CPD1K-Test[2], CAMO-Test[3], and COD10K-Test[4]) can be found:<br> 
 
