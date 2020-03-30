@@ -3,7 +3,7 @@ Search and Identification Net (SINet) for Camouflaged Object Detection (code wil
 
 ## Task Relationship
 ![alt text](./TaskRelationship.png)
-Figure 1: Task relationship.
+Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of generic objects. Typical generic object detection tasks include semantic segmentation and panoptic segmentation (see Fig. 2 b).
 
 References of salient object detection (SOD) benchmark works<br>
 [1] VSOD: Shifting More Attention to Video Salient Object Detection. CVPR, 2019. <br>
