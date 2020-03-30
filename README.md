@@ -20,7 +20,7 @@ Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic
 Figure 3: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
 
 ![alt text](./QuantitativeResults.png)
-Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See x 5.1 for training details: (i) CPD1K,
+Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See Section 5.1 for training details: (i) CPD1K,
 (ii) CAMO, (iii) COD10K, (iv) CPD1K + CAMO + COD10K. Note that the ANet-SRM model (only trained on CAMO) does not have a publicly available code, thus other results are not available. $E_\phi$ denotes mean Emeasure. Baseline models are trained using the training setting (iv). 
 
 <div align=center><img width="860" height="1060" src="SubClassResults.png"/></div>
