@@ -68,7 +68,6 @@ https://drive.google.com/open?id=1AeJBD-FemHSVdprC8_6BOi41Wt5KgMIt
 ## Applications
 1. Medical (polyp segmentation)
 ![alt text](./PolypSegmentation.png)
-PraNet: Parallel Reverse Attention Network for Polyp Segmentation, MICCAI 2020 (submitted).
 2. Agriculture (locust detection to prevent invasion)
 3. Art (e.g., for photorealistic blending, or recreational art)
 4. Military (for discriminating enemies)
