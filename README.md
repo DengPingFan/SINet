@@ -68,6 +68,8 @@ https://drive.google.com/open?id=1AeJBD-FemHSVdprC8_6BOi41Wt5KgMIt
 ## Applications
 1. Medical (polyp segmentation)
 ![alt text](./PolypSegmentation.png)
+   Lung Infection Segmentation
+<div align=center><img width="600" height="230" src="COVID-19Infection.png"/></div>   
 2. Agriculture (locust detection to prevent invasion)
 3. Art (e.g., for photorealistic blending, or recreational art)
 4. Military (for discriminating enemies)
