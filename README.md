@@ -67,17 +67,15 @@ Our testing dataset is:
 
 https://drive.google.com/open?id=1AeJBD-FemHSVdprC8_6BOi41Wt5KgMIt
 
-## Applications
+## Potential Applications
 1. Medical (polyp segmentation)
 ![alt text](./PolypSegmentation.png)
    Lung Infection Segmentation
 <div align=center><img width="600" height="230" src="COVID'19-Infection.png"/></div>   
-Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, and consolidation, respectively. The images are collected from [1].
-
-[1] COVID-19 CT segmentation dataset, link: https://medicalsegmentation.com/covid19/, accessed: 2020-04-11.
-
-
-2. Agriculture (locust detection to prevent invasion)
+Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, and consolidation, respectively. The images are collected from [1].<br>
+[1] COVID-19 CT segmentation dataset, link: https://medicalsegmentation.com/covid19/, accessed: 2020-04-11.<br>
+2. Agriculture (locust detection to prevent invasion)<br>
+<div align=center><img width="600" height="230" src="locust detection.png"/></div>
 3. Art (e.g., for photorealistic blending, or recreational art)<br>
 Camouflaging an Object from Many Viewpoints<br>
 <div align=center><img width="600" height="230" src="CamouflagingFromMultiView.png"/></div>
