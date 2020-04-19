@@ -79,7 +79,7 @@ Example of COVID-19 infected regions in CT axial slice, where the red and green 
 3. Art (e.g., for photorealistic blending, or recreational art)<br>
 Camouflaging an Object from Many Viewpoints<br>
 <div align=center><img width="600" height="230" src="CamouflagingFromMultiView.png"/></div>
-The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.).
+The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.).<br>
 4. Military (for discriminating enemies)
 <div align=center><img width="600" height="220" src="Telescope.png"/></div>
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
