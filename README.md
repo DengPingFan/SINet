@@ -78,7 +78,9 @@ Example of COVID-19 infected regions in CT axial slice, where the red and green 
 
 
 2. Agriculture (locust detection to prevent invasion)
-3. Art (e.g., for photorealistic blending, or recreational art)
+3. Art (e.g., for photorealistic blending, or recreational art)<br>
+Camouflaging an Object from Many Viewpoints<br>
+<div align=center><img width="600" height="230" src="CamouflagingFromMultiView.png"/></div>
 4. Military (for discriminating enemies)
 <div align=center><img width="600" height="220" src="Telescope.png"/></div>
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
