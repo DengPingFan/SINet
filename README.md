@@ -87,6 +87,7 @@ The answer can be found at here (Camouflaging an Object from Many Viewpoints, CV
 Underwater Image Enhancement<br>
 <div align=center><img width="2014" height="320" src="UnderwaterEnhancment.png"/></div>
 Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details. <br>
+
 ## Paper
 
 http://dpfan.net/wp-content/uploads/COD_CVPR20-OmittedModel.pdf
