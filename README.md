@@ -1,4 +1,4 @@
-# SINet (CVPR2020)
+# SINet (CVPR2020) 2020-4-19 update
 Search and Identification Net (SINet) for Camouflaged Object Detection (code will be updated soon)<br>
 
 ## Task Relationship
@@ -55,7 +55,7 @@ Figure 5: Annotation diversity and meticulousness in the proposed COD10K dataset
 
 <div align=center><img width="850" height="440" src="COD10K-3.png"/></div>
 Figure 6: Regularized quality control during our labeling reverification stage. Strictly adheres to the four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.<br>
-
+<br>
 COD10K datasets: coming soon.
 
 ## Training and Testing Sets
