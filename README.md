@@ -84,8 +84,8 @@ The answer can be found at here (Camouflaging an Object from Many Viewpoints, CV
 <div align=center><img width="600" height="220" src="Telescope.png"/></div>
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
 <div align=center><img width="600" height="230" src="Search-and-Rescue.png"/></div>
-underwater object detecton<br>
-
+Underwater Image Enhancement<br>
+![alt text](./UnderwaterEnhancment.png)
 
 ## Paper
 
