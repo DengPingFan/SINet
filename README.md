@@ -15,7 +15,7 @@ References of salient object detection (SOD) benchmark works<br>
 ![alt text](./CamouflagedTask.png)
 Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation (which detects generic objects including stuff and things), (c) salient instance/object detection (which detects objects that grasp human attention), and (d) the proposed camouflaged object detection task, where the goal is to detect objects that have a similar pattern (e.g., edge, texture, or color) to the natural habitat. In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify. This task is far more challenging than the traditional salient object detection or generic object detection. <br>
 
-## SINet
+## Proposed SINet
 ![alt text](./SINet.png)
 Overview of our SINet framework, which consists of two main components: the receptive field (RF) and partial decoder component (PDC). The RF is introduced to mimic the structure of RFs in the human visual system. The PDC reproduces the search and identification stages of animal predation. SA = search attention function described in [71]. See x 4 for details. <br>
 
@@ -57,7 +57,7 @@ References of datasets<br>
 [3] Anabranch network for camouflaged object segmentation. CVIU, 2019.<br>
 [4] Camouflaged Object Detection, CVPR, 2020.
 
-## The Proposed COD10K Datasets
+## Proposed COD10K Datasets
 <div align=center><img width="850" height="1070" src="COD10K-1.png"/></div>
 Figure 4: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.<br>
 
