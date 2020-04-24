@@ -1,4 +1,4 @@
-# SINet (CVPR2020) 2020-4-19 update
+# SINet (CVPR2020) 2020-4-24 update
 Search and Identification Net (SINet) for Camouflaged Object Detection (code will be updated soon)<br>
 
 ## Task Relationship
