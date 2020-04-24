@@ -90,7 +90,7 @@ Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, T
 
 ## Paper
 
-http://dpfan.net/wp-content/uploads/COD_CVPR20-OmittedModel.pdf
+http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf
 
 ## Citation
 Please cite our paper if you find the work useful: 
