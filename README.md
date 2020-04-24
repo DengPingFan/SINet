@@ -17,6 +17,13 @@ Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic
 
 ## SINet
 ![alt text](./SINet.png)
+Overview of our SINet framework, which consists of two main components: the receptive field (RF) and partial decoder component (PDC). The RF is introduced to mimic the structure of RFs in the human visual system. The PDC reproduces the search and identification stages of animal predation. SA = search attention function described in [71]. See x 4 for details. <br>
+
+Training model: <br>
+coming soon.
+
+Testing model: <br>
+coming soon.
 
 
 ## Results
