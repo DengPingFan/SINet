@@ -14,14 +14,12 @@ generic objects. Typical generic object detection tasks include semantic segment
 segmentation (see Fig. 2 b).
 
 ![alt text](Imgs/CamouflagedTask.png)
-Figure 2: Given an input image (a), we present the ground-truth for 
-(b) panoptic segmentation 
-(which detects generic objects including stuff and things), 
-(c) salient instance/object detection (which detects objects that grasp human attention), and (d) the proposed 
-camouflaged object detection task, where the goal is to detect objects that have a similar pattern (e.g., edge, 
-texture, or color) to the natural habitat. In this case, the boundaries of the two butterflies are blended with 
-the bananas, making them difficult to identify. This task is far more challenging than the traditional salient 
-object detection or generic object detection.
+Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation 
+(which detects generic objects including stuff and things), (c) salient instance/object detection 
+(which detects objects that grasp human attention), and (d) the proposed camouflaged object detection task, 
+where the goal is to detect objects that have a similar pattern (e.g., edge, texture, or color) to the natural habitat. 
+In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify. 
+This task is far more challenging than the traditional salient object detection or generic object detection.
 
 > References of salient object detection (SOD) benchmark works<br>
 > [1] Video SOD: Shifting More Attention to Video Salient Object Detection. CVPR, 2019. ([Project Page](http://dpfan.net/davsod/))<br>
