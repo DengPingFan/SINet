@@ -146,7 +146,7 @@ four major criteria of rejection or acceptance to near the ceiling of annotation
 
 We provide complete and fair one-key evaluation toolbox for benmarking within a uniform standard. Please refer to: https://github.com/DengPingFan/CODToolbox
 
-## 5. Potential Applications
+## 6. Potential Applications
 
 1. Medical (Polyp Segmentation)
 ![alt text](imgs/PolypSegmentation.png)
@@ -174,11 +174,11 @@ The answer can be found at here (Camouflaging an Object from Many Viewpoints, CV
 <div align=center><img width="2014" height="320" src="imgs/UnderwaterEnhancment.png"/></div>
 Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details. <br>
 
-## 6. User Study Test
+## 7. User Study Test
 
 http://dpfan.net/wp-content/uploads/UserStudy-V1.1-8test.pptx
 
-## 7. Citation
+## 8. Citation
 Please cite our paper if you find the work useful: 
 
 	@inproceedings{fan2020Camouflage,
@@ -188,6 +188,6 @@ Please cite our paper if you find the work useful:
   	year={2020}
 	}
   
-## 8. Acknowledgements
+## 9. Acknowledgements
 
 We would like to thank image annotator and xxx for helpful feedback and discussion.
