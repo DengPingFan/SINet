@@ -96,7 +96,7 @@ The answer can be found at here (Camouflaging an Object from Many Viewpoints, CV
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
 <div align=center><img width="600" height="230" src="Search-and-Rescue.png"/></div>
 Underwater Image Enhancement<br>
-<div align=center><img width="2014" height="320" src="UnderwaterEnhancment.png"/></div>
+6. <div align=center><img width="2014" height="320" src="UnderwaterEnhancment.png"/></div>
 Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details. <br>
 
 ## User Study Test
