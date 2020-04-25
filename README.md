@@ -24,9 +24,9 @@ the bananas, making them difficult to identify. This task is far more challengin
 object detection or generic object detection.
 
 > References of salient object detection (SOD) benchmark works<br>
-> [1] Video SOD: Shifting More Attention to Video Salient Object Detection. CVPR, 2019. ([Project Page](http://dpfan.net/davsod/)) <br>
-> [2] RGB SOD: Salient Objects in Clutter: Bringing Salient Object Detection to the Foreground. ECCV, 2018. ([(Project Page](https://dpfan.net/socbenchmark/))
-> [3] RGB-D SOD: Rethinking RGB-D Salient Object Detection: Models, Datasets, and Large-Scale Benchmarks. TNNLS, 2020. ([Project Page](http://dpfan.net/d3netbenchmark/))
+> [1] Video SOD: Shifting More Attention to Video Salient Object Detection. CVPR, 2019. ([Project Page](http://dpfan.net/davsod/))<br>
+> [2] RGB SOD: Salient Objects in Clutter: Bringing Salient Object Detection to the Foreground. ECCV, 2018. ([(Project Page](https://dpfan.net/socbenchmark/))<br>
+> [3] RGB-D SOD: Rethinking RGB-D Salient Object Detection: Models, Datasets, and Large-Scale Benchmarks. TNNLS, 2020. ([Project Page](http://dpfan.net/d3netbenchmark/))<br>
 > [4] Co-SOD: Taking a Deeper Look at the Co-salient Object Detection. CVPR, 2020. ([Project Page](http://dpfan.net/CoSOD3K/))
 
 ## Proposed Baseline
@@ -66,9 +66,9 @@ score of each category is highlighted in bold. <br>
 #### Results Download 
 
 1. Results of our SINet on four datasets (e.g., CHAMELEON[1], CPD1K-Test[2], CAMO-Test[3], and COD10K-Test[4]) 
-can be found in this [link](https://drive.google.com/open?id=1fHAwcUwCjBKSw8eJ9OaQ9_0kW6VtDZ6L)
+can be found in this [link](https://drive.google.com/open?id=1fHAwcUwCjBKSw8eJ9OaQ9_0kW6VtDZ6L).
 
-2. Performance of competing methods can be found in this [link](https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J)
+2. Performance of competing methods can be found in this [link](https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J).
 
 > References of datasets<br>
 [1] Animal camouflage analysis: Chameleon database. Unpublished Manuscript, 2018. <br>
@@ -90,13 +90,9 @@ Figure 7: Regularized quality control during our labeling reverification stage. 
 COD10K datasets: coming soon.
 
 ## Training and Testing Sets
-Our training dataset is:
+Our training dataset can be found in this [download link](https://drive.google.com/open?id=1aH9_0w3zCVoh9ttrU10xjCYcjuvPuzWY).
 
-https://drive.google.com/open?id=1aH9_0w3zCVoh9ttrU10xjCYcjuvPuzWY
-
-Our testing dataset is:
-
-https://drive.google.com/open?id=1AeJBD-FemHSVdprC8_6BOi41Wt5KgMIt
+Our testing dataset can be found in this [download link](https://drive.google.com/open?id=1AeJBD-FemHSVdprC8_6BOi41Wt5KgMIt).
 
 ## Potential Applications
 1. Medical (polyp segmentation)
