@@ -1,5 +1,12 @@
 # Camouflaged Object Detection (Accepted by Oral Presentation in CVPR, 2020)
 
+> [Deng-Ping Fan](https://dpfan.net/), 
+> Ge-Peng Ji, 
+> Guolei Sun, 
+> [Ming-Ming Cheng](https://mmcheng.net/), 
+> [Jianbing Shen](http://iitlab.bit.edu.cn/mcislab/~shenjianbing), 
+> [Ling Shao](http://www.inceptioniai.org/).
+
 - This repository includes detailed introduction, strong baseline 
 (Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named 
 Camouflaged Object Detection (COD).
@@ -8,8 +15,6 @@ Camouflaged Object Detection (COD).
 and read the [manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf). 
 Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 if you are using SINet or evaluation toolbox for your research!
-
-- Any question feel free to contact me with [E-mail](gepengai.ji@gmail.com) or create new issue in the GitHub)
 
 ### NEWS
 
