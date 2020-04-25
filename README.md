@@ -92,10 +92,6 @@ Our training dataset can be found in this [download link](https://drive.google.c
 
 Our testing dataset can be found in this [download link](https://drive.google.com/open?id=1AeJBD-FemHSVdprC8_6BOi41Wt5KgMIt).
 
-## Evaluation Toolbox
-
-Please refer to: https://github.com/DengPingFan/CODToolbox
-
 ## Potential Applications
 1. Medical (polyp segmentation)
 ![alt text](Imgs/PolypSegmentation.png)
