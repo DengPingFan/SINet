@@ -142,6 +142,9 @@ four major criteria of rejection or acceptance to near the ceiling of annotation
 
 > COD10K datasets: coming soon.
 
+## 5. Evaluation Toolbox
+
+We provide complete and fair one-key evaluation toolbox for benmarking within a uniform standard. Please refer to: https://github.com/DengPingFan/CODToolbox
 
 ## 5. Potential Applications
 
