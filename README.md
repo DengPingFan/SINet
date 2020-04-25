@@ -85,17 +85,22 @@ https://drive.google.com/open?id=1AeJBD-FemHSVdprC8_6BOi41Wt5KgMIt
 <div align=center><img width="600" height="230" src="COVID'19-Infection.png"/></div>   
 Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, and consolidation, respectively. The images are collected from [1].<br>
 [1] COVID-19 CT segmentation dataset, link: https://medicalsegmentation.com/covid19/, accessed: 2020-04-11.<br>
+
 2. Agriculture (locust detection to prevent invasion)<br>
 <div align=center><img width="600" height="230" src="locust detection.png"/></div>
+
 3. Art (e.g., for photorealistic blending, or recreational art)<br>
 Camouflaging an Object from Many Viewpoints<br>
 <div align=center><img width="600" height="230" src="CamouflagingFromMultiView.png"/></div>
 The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.).<br>
+
 4. Military (for discriminating enemies)
 <div align=center><img width="600" height="220" src="Telescope.png"/></div>
+
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
 <div align=center><img width="600" height="230" src="Search-and-Rescue.png"/></div>
-Underwater Image Enhancement<br>
+
+6. Underwater Image Enhancement<br>
 <div align=center><img width="2014" height="320" src="UnderwaterEnhancment.png"/></div>
 Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details. <br>
 
