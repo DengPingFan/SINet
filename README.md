@@ -9,6 +9,8 @@ and read the [manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetC
 Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 if you are using SINet or evaluation toolbox for your research!
 
+- Any question feel free to contact me with [E-mail](gepengai.ji@gmail.com) or create new issue in the GitHub)
+
 ### NEWS
 
 - [2020/04/25] Training/Testing code will be updated soon ...
@@ -63,6 +65,8 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
     
     + creating a virtual environment: `conda create -n SINet python=3.6`
     
+    + installing apex for accelerate training process
+    
     + installing necessary packages: `pip install -r requirements.txt`
 
 
@@ -82,13 +86,13 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 
 3. Testing Configuration:
 
-    change your test img/gt directory in the `parser` of `MyTest.py`:
+    + change your test img/gt directory in the `parser` of `MyTest.py`:
     replace your trained model directory (`--model_path`) and assign your the 
     save dir of inferred mask (`--test_save`)
 
 4. Evaluation your trained model:
 
-    One-key evaluation is written in MATLAB code (revised from [link]()), please follow this [instructions]().
+    + One-key evaluation is written in MATLAB code (revised from [link]()), please follow this [instructions]().
 
 
 ## 3. Results
@@ -144,7 +148,8 @@ four major criteria of rejection or acceptance to near the ceiling of annotation
 
 ## 5. Evaluation Toolbox
 
-We provide complete and fair one-key evaluation toolbox for benmarking within a uniform standard. Please refer to: https://github.com/DengPingFan/CODToolbox
+We provide complete and fair one-key evaluation toolbox for benmarking within a uniform standard. 
+Please refer to this link for more information: https://github.com/DengPingFan/CODToolbox
 
 ## 5. Potential Applications
 
