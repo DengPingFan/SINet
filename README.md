@@ -1,12 +1,13 @@
 # Camouflaged Object Detection (Accepted by Oral Presentation in CVPR, 2020)
 
-This repository includes detailed introduction, strong baseline 
+- This repository includes detailed introduction, strong baseline 
 (Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named 
 Camouflaged Object Detection (COD).
 
-Some links: [Project Page](http://dpfan.net/Camouflage/), 
-[Paper](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf), 
-and [BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt).
+- For more information about Camouflaged Object Detection, please visit our [project page](http://dpfan.net/Camouflage/) 
+and read the [manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf). 
+Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
+if you are using SINet or evaluation toolbox for your research!
 
 ### NEWS
 
@@ -16,6 +17,7 @@ and [BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt).
 
 - [x] Support `NVIDIA APEX` training
 - [ ] Support different backbones (VGGNet, ResNet, Res2Net, iResNet, and ResNeSt etc.)
+- [ ] Support distributed training
 
 ## 1. Task Relationship
 ![alt text](imgs/TaskRelationship.png)
@@ -183,6 +185,6 @@ Please cite our paper if you find the work useful:
   	year={2020}
 	}
   
-## 8. Ackonwledgements
+## 8. Acknowledgements
 
-We would like to thank image annotatator and xxx for helpful feedback and discussion.
+We would like to thank image annotator and xxx for helpful feedback and discussion.
