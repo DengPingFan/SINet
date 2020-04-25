@@ -21,9 +21,9 @@ where the goal is to detect objects that have a similar pattern (e.g., edge, tex
 In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify. 
 This task is far more challenging than the traditional salient object detection or generic object detection.
 
-> References of salient object detection (SOD) benchmark works<br>
+> References of Salient Object Detection (SOD) benchmark works<br>
 > [1] Video SOD: Shifting More Attention to Video Salient Object Detection. CVPR, 2019. ([Project Page](http://dpfan.net/davsod/))<br>
-> [2] RGB SOD: Salient Objects in Clutter: Bringing Salient Object Detection to the Foreground. ECCV, 2018. ([(Project Page](https://dpfan.net/socbenchmark/))<br>
+> [2] RGB SOD: Salient Objects in Clutter: Bringing Salient Object Detection to the Foreground. ECCV, 2018. ([Project Page](https://dpfan.net/socbenchmark/))<br>
 > [3] RGB-D SOD: Rethinking RGB-D Salient Object Detection: Models, Datasets, and Large-Scale Benchmarks. TNNLS, 2020. ([Project Page](http://dpfan.net/d3netbenchmark/))<br>
 > [4] Co-SOD: Taking a Deeper Look at the Co-salient Object Detection. CVPR, 2020. ([Project Page](http://dpfan.net/CoSOD3K/))
 
