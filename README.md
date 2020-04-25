@@ -1,5 +1,12 @@
 # Camouflaged Object Detection (Accepted by Oral Presentation in CVPR, 2020)
 
+> [Deng-Ping Fan](https://dpfan.net/), 
+> Ge-Peng Ji, 
+> Guolei Sun, 
+> [Ming-Ming Cheng](https://mmcheng.net/), 
+> [Jianbing Shen](http://iitlab.bit.edu.cn/mcislab/~shenjianbing), 
+> [Ling Shao](http://www.inceptioniai.org/).
+
 - This repository includes detailed introduction, strong baseline 
 (Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named 
 Camouflaged Object Detection (COD).
@@ -63,6 +70,8 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
     
     + creating a virtual environment: `conda create -n SINet python=3.6`
     
+    + installing apex for accelerate training process
+    
     + installing necessary packages: `pip install -r requirements.txt`
 
 
@@ -82,13 +91,13 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 
 3. Testing Configuration:
 
-    change your test img/gt directory in the `parser` of `MyTest.py`:
+    + change your test img/gt directory in the `parser` of `MyTest.py`:
     replace your trained model directory (`--model_path`) and assign your the 
     save dir of inferred mask (`--test_save`)
 
 4. Evaluation your trained model:
 
-    One-key evaluation is written in MATLAB code (revised from [link]()), please follow this [instructions]().
+    + One-key evaluation is written in MATLAB code (revised from [link]()), please follow this [instructions]().
 
 
 ## 3. Results
@@ -144,7 +153,8 @@ four major criteria of rejection or acceptance to near the ceiling of annotation
 
 ## 5. Evaluation Toolbox
 
-We provide complete and fair one-key evaluation toolbox for benmarking within a uniform standard. Please refer to: https://github.com/DengPingFan/CODToolbox
+We provide complete and fair one-key evaluation toolbox for benmarking within a uniform standard. 
+Please refer to this link for more information: https://github.com/DengPingFan/CODToolbox
 
 ## 6. Potential Applications
 
