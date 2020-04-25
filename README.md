@@ -1,10 +1,21 @@
 # Camouflaged Object Detection (Accepted by Oral Presentation in CVPR, 2020)
 
 This repository includes detailed introduction, strong baseline 
-(Search & Identification Net, **SINet**), and one-key evaluation codes for a brand new filed named 
+(Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named 
 Camouflaged Object Detection (COD).
 
-> Train/Test code will be updated soon ...
+Some links: [Project Page](http://dpfan.net/Camouflage/), 
+[Paper](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf), 
+and [BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt).
+
+### NEWS
+
+- [2020/04/25] Training/Testing code will be updated soon ...
+
+### TODO LIST
+
+- [x] Support `NVIDIA APEX` training
+- [ ] Support different backbones (VGGNet, ResNet, Res2Net, iResNet, and ResNeSt etc.)
 
 ## 1. Task Relationship
 ![alt text](imgs/TaskRelationship.png)
@@ -78,10 +89,13 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
     One-key evaluation is written in MATLAB code (revised from [link]()), please follow this [instructions]().
 
 
-## Results
+## 3. Results
+
+### 3.1. Qualitative Comparison
 ![alt text](imgs/CmpResults.png)
 Figure 4: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
 
+### 3.2. Quantitative Comparison (overall/sub-class scores)
 ![alt text](imgs/QuantitativeResults.png)
 Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See Section 5.1 for 
 training details: (i) CPD1K, (ii) CAMO, (iii) COD10K, (iv) CPD1K + CAMO + COD10K. 
@@ -96,7 +110,7 @@ score of each category is highlighted in bold. <br>
 Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
 score of each category is highlighted in bold. <br>
 
-#### Results Download 
+### 3.3. Results Download 
 
 1. Results of our SINet on four datasets (e.g., CHAMELEON[1], CPD1K-Test[2], CAMO-Test[3], and COD10K-Test[4]) 
 can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCjBKSw8eJ9OaQ9_0kW6VtDZ6L).
@@ -109,7 +123,7 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 [3] Anabranch network for camouflaged object segmentation. CVIU, 2019.<br>
 [4] Camouflaged Object Detection, CVPR, 2020.
 
-## Proposed COD10K Datasets
+## 4. Proposed COD10K Datasets
 <div align=center><img width="850" height="1070" src="imgs/COD10K-1.png"/></div>
 Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.<br>
 
@@ -124,11 +138,10 @@ Figure 6: Annotation diversity and meticulousness in the proposed COD10K dataset
 Figure 7: Regularized quality control during our labeling reverification stage. Strictly adheres to the 
 four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.<br>
 
-COD10K datasets: coming soon.
+> COD10K datasets: coming soon.
 
 
-
-## Potential Applications
+## 5. Potential Applications
 
 1. Medical (Polyp Segmentation)
 ![alt text](imgs/PolypSegmentation.png)
@@ -156,15 +169,11 @@ The answer can be found at here (Camouflaging an Object from Many Viewpoints, CV
 <div align=center><img width="2014" height="320" src="imgs/UnderwaterEnhancment.png"/></div>
 Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details. <br>
 
-## User Study Test
+## 6. User Study Test
 
 http://dpfan.net/wp-content/uploads/UserStudy-V1.1-8test.pptx
 
-## Paper
-
-http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf
-
-## Citation
+## 7. Citation
 Please cite our paper if you find the work useful: 
 
 	@inproceedings{fan2020Camouflage,
@@ -174,3 +183,6 @@ Please cite our paper if you find the work useful:
   	year={2020}
 	}
   
+## 8. Ackonwledgements
+
+We would like to thank image annotatator and xxx for helpful feedback and discussion.

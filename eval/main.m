@@ -3,7 +3,7 @@ close all;
 clc;
 
 % ---- 1. Camouflage Map Path Setting ----
-SalMapPath = '../res/2020-CVPR-SINet/';   % Put model results in this folder.
+CamMapPath = '../res/2020-CVPR-SINet/';   % Put model results in this folder.
 Models = {'2020-CVPR-SINet'};   % You can add other model like this format: Models = {'2019-ICCV-EGNet','2019-CVPR-CPD'};
 modelNum = length(Models);
 
@@ -35,9 +35,9 @@ for d = 1:datasetNum
         model = Models{m}   % print cur model name
 
         gtPath = [DataPath dataset '/'];
-        salPath = [SalMapPath model '/' dataset '/'];
+        camPath = [CamMapPath model '/' dataset '/'];
         
-        imgFiles = dir([salPath '*.png']);  
+        imgFiles = dir([camPath '*.png']);  
         imgNUM = length(imgFiles);
         
         [threshold_Fmeasure, threshold_Emeasure] = deal(zeros(imgNUM,length(Thresholds)));
@@ -63,42 +63,42 @@ for d = 1:datasetNum
                 gt = gt(:,:,1) > 128;
             end
             
-            % load salency
-            sal  = imread([salPath name]);
+            % load camouflaged prediction
+            cam = imread([camPath name]);
             
             % check size
-            if size(sal, 1) ~= size(gt, 1) || size(sal, 2) ~= size(gt, 2)
-                sal = imresize(sal,size(gt));
-                imwrite(sal,[salPath name]);
-                fprintf('Error occurs in the path: %s!!!\n', [salPath name]);
+            if size(cam, 1) ~= size(gt, 1) || size(cam, 2) ~= size(gt, 2)
+                cam = imresize(cam,size(gt));
+                imwrite(cam,[camPath name]);
+                fprintf('Error occurs in the path: %s!!!\n', [camPath name]);
             end
             
-            sal = im2double(sal(:,:,1));
+            cam = im2double(cam(:,:,1));
             
             % normalize CamMap to [0, 1]
-            sal = reshape(mapminmax(sal(:)',0,1),size(sal));
+            cam = reshape(mapminmax(cam(:)', 0, 1), size(cam));
             % S-meaure metric published in ICCV'17 (Structure measure: A New Way to Evaluate the Foreground Map.)
-            Smeasure(i) = StructureMeasure(sal,logical(gt)); 
+            Smeasure(i) = StructureMeasure(cam, logical(gt)); 
             % Weighted F-measure metric published in CVPR'14 (How to evaluate the foreground maps?)
-            wFmeasure(i) = original_WFb(sal,logical(gt));
+            wFmeasure(i) = original_WFb(cam, logical(gt));
             
             % Using the 2 times of average of cam map as the threshold.
-            threshold =  2* mean(sal(:)) ;
-            [~,~,adpFmeasure(i)] = Fmeasure_calu(sal,double(gt),size(gt),threshold);
+            threshold =  2* mean(cam(:)) ;
+            [~, ~, adpFmeasure(i)] = Fmeasure_calu(cam,double(gt),size(gt),threshold);
             
-            Bi_sal = zeros(size(sal));
-            Bi_sal(sal>threshold)=1;
-            adpEmeasure(i) = Enhancedmeasure(Bi_sal,gt);
+            Bi_cam = zeros(size(cam));
+            Bi_cam(cam>threshold)=1;
+            adpEmeasure(i) = Enhancedmeasure(Bi_cam, gt);
             
-            [threshold_F, threshold_E]  = deal(zeros(1,length(Thresholds)));
-            [threshold_Pr, threshold_Rec]  = deal(zeros(1,length(Thresholds)));
+            [threshold_F, threshold_E]  = deal(zeros(1, length(Thresholds)));
+            [threshold_Pr, threshold_Rec]  = deal(zeros(1, length(Thresholds)));
             for t = 1:length(Thresholds)
                 threshold = Thresholds(t);
-                [threshold_Pr(t), threshold_Rec(t), threshold_F(t)] = Fmeasure_calu(sal,double(gt),size(gt),threshold);
+                [threshold_Pr(t), threshold_Rec(t), threshold_F(t)] = Fmeasure_calu(cam,double(gt),size(gt),threshold);
                 
-                Bi_sal = zeros(size(sal));
-                Bi_sal(sal>threshold)=1;
-                threshold_E(t) = Enhancedmeasure(Bi_sal,gt);
+                Bi_cam = zeros(size(cam));
+                Bi_cam(cam>threshold)=1;
+                threshold_E(t) = Enhancedmeasure(Bi_cam,gt);
             end
             
             threshold_Fmeasure(i,:) = threshold_F;
@@ -106,7 +106,7 @@ for d = 1:datasetNum
             threshold_Precion(i,:) = threshold_Pr;
             threshold_Recall(i,:) = threshold_Rec;
             
-            MAE(i) = mean2(abs(double(logical(gt)) - sal));
+            MAE(i) = mean2(abs(double(logical(gt)) - cam));
             
         end
 
