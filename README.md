@@ -196,7 +196,7 @@ Please cite our paper if you find the work useful:
 
 We would like to thank image annotator and xxx for helpful feedback and discussion.
 
-## 9. TODO LIST
+## 10. TODO LIST
 
 - [x] Support `NVIDIA APEX` training
 - [ ] Support different backbones (VGGNet, ResNet, Res2Net, iResNet, and ResNeSt etc.)
