@@ -20,12 +20,6 @@ if you are using SINet or evaluation toolbox for your research!
 
 - [2020/04/25] Training/Testing code will be updated soon ...
 
-### TODO LIST
-
-- [x] Support `NVIDIA APEX` training
-- [ ] Support different backbones (VGGNet, ResNet, Res2Net, iResNet, and ResNeSt etc.)
-- [ ] Support distributed training
-
 ## 1. Task Relationship
 ![alt text](imgs/TaskRelationship.png)
 Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
@@ -201,3 +195,9 @@ Please cite our paper if you find the work useful:
 ## 9. Acknowledgements
 
 We would like to thank image annotator and xxx for helpful feedback and discussion.
+
+## 9. TODO LIST
+
+- [x] Support `NVIDIA APEX` training
+- [ ] Support different backbones (VGGNet, ResNet, Res2Net, iResNet, and ResNeSt etc.)
+- [ ] Support distributed training
