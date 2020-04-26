@@ -194,7 +194,7 @@ Please cite our paper if you find the work useful:
   
 ## 9. Acknowledgements
 
-We would like to thank image annotator and xxx for helpful feedback and discussion.
+We would like to thank authors of CHAMELEON, CPD1K, CAMO dataset for their work. They provide tremendous efforts in these datasets to boost this field. We also appreciate image annotators and [Wenguan Wang](https://scholar.google.com/citations?user=lZQRrrkAAAAJ&hl=zh-CN), [Geng Chen](), [Hongsong Wang](https://scholar.google.com/citations?hl=zh-CN&user=LzQnGacAAAAJ) for insightful feedback and discussion.
 
 ## 10. TODO LIST
 
