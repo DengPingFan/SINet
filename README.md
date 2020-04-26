@@ -21,6 +21,7 @@ if you are using SINet or evaluation toolbox for your research!
 - [2020/04/25] Training/Testing code will be updated soon ...
 
 ## 1. Task Relationship
+
 ![alt text](imgs/TaskRelationship.png)
 Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
 Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of 
@@ -129,8 +130,11 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 [4] Camouflaged Object Detection, CVPR, 2020.
 
 ## 4. Proposed COD10K Datasets
-<div align=center><img width="850" height="1070" src="imgs/COD10K-1.png"/></div>
-Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.<br>
+
+<p align="center">
+    <img width="850" height="1070" src="imgs/COD10K-1.png"/> <br />
+    <em> Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.</em>
+</p>
 
 <div align=center><img width="850" height="680" src="imgs/COD10K-2.png"/></div>
 Figure 6: Annotation diversity and meticulousness in the proposed COD10K dataset. Instead of only providing coarse-grained
