@@ -22,19 +22,27 @@ if you are using SINet or evaluation toolbox for your research!
 
 ## 1. Task Relationship
 
-![alt text](imgs/TaskRelationship.png)
-Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
-Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of 
-generic objects. Typical generic object detection tasks include semantic segmentation and panoptic 
-segmentation (see Fig. 2 b).
+<p align="center">
+    <img src="imgs/TaskRelationship.png"/> <br />
+    <em> 
+    Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
+    Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of 
+    generic objects. Typical generic object detection tasks include semantic segmentation and panoptic 
+    segmentation (see Fig. 2 b).
+    </em>
+</p>
 
-![alt text](imgs/CamouflagedTask.png)
-Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation 
-(which detects generic objects including stuff and things), (c) salient instance/object detection 
-(which detects objects that grasp human attention), and (d) the proposed camouflaged object detection task, 
-where the goal is to detect objects that have a similar pattern (e.g., edge, texture, or color) to the natural habitat. 
-In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify. 
-This task is far more challenging than the traditional salient object detection or generic object detection.
+<p align="center">
+    <img src="imgs/CamouflagedTask.png"/> <br />
+    <em> 
+    Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation 
+    (which detects generic objects including stuff and things), (c) salient instance/object detection 
+    (which detects objects that grasp human attention), and (d) the proposed camouflaged object detection task, 
+    where the goal is to detect objects that have a similar pattern (e.g., edge, texture, or color) to the natural habitat. 
+    In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify. 
+    This task is far more challenging than the traditional salient object detection or generic object detection.
+    </em>
+</p>
 
 > References of Salient Object Detection (SOD) benchmark works<br>
 > [1] Video SOD: Shifting More Attention to Video Salient Object Detection. CVPR, 2019. ([Project Page](http://dpfan.net/davsod/))<br>
