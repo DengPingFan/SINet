@@ -60,11 +60,11 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 
 1. Configuring your environment (Prerequisites):
     
-    Note that we only test on the aforementioned versions, and thus, any other version may be error!)
+    Note that SINet is only tested on Ubuntu OS with the following eviornments. It may work on other operating systems as well but we do not guarantee that it will.
     
     + creating a virtual environment: `conda create -n SINet python=3.6`
     
-    + installing apex for accelerate training process
+    + installing apex for accelerate training process with mixed precision.
     
     + installing necessary packages: `pip install -r requirements.txt`
 
