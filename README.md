@@ -133,19 +133,29 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 
 <p align="center">
     <img width="850" height="1070" src="imgs/COD10K-1.png"/> <br />
-    <em> Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.</em>
+    <em> 
+    Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.
+    </em>
 </p>
 
-<div align=center><img width="850" height="680" src="imgs/COD10K-2.png"/></div>
-Figure 6: Annotation diversity and meticulousness in the proposed COD10K dataset. Instead of only providing coarse-grained
- object-level annotations with the three major types of bias (e.g., Watermark embedded, Coarse annotation, and Occlusion) 
- in prior works, we offer six different annotations, which include edge-level (4rd row), object-level (5rd row), 
- instance-level (6rd row), bounding boxes (7rd row), and attributes (8rd row). Refer to the manuscript for more attribute 
- details.<br>
+<p align="center">
+    <img width="850" height="680" src="imgs/COD10K-2.png"/> <br />
+    <em> 
+    Figure 6: Annotation diversity and meticulousness in the proposed COD10K dataset. Instead of only providing coarse-grained
+    object-level annotations with the three major types of bias (e.g., Watermark embedded, Coarse annotation, and Occlusion) 
+    in prior works, we offer six different annotations, which include edge-level (4rd row), object-level (5rd row), 
+    instance-level (6rd row), bounding boxes (7rd row), and attributes (8rd row). Refer to the manuscript for more attribute 
+    details.
+    </em>
+</p>
 
-<div align=center><img width="850" height="440" src="imgs/COD10K-3.png"/></div>
-Figure 7: Regularized quality control during our labeling reverification stage. Strictly adheres to the 
-four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.<br>
+<p align="center">
+    <img width="850" height="440" src="imgs/COD10K-3.png"/> <br />
+    <em> 
+    Figure 7: Regularized quality control during our labeling reverification stage. Strictly adheres to the 
+    four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.
+    </em>
+</p>
 
 > COD10K datasets: coming soon.
 
