@@ -227,8 +227,6 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 
 3. Art (e.g., for photorealistic blending, or recreational art)
 
-    Camouflaging an Object from Many Viewpoints
-    
 <p align="center">
     <img width="600" height="230" src="imgs/CamouflagingFromMultiView.png"/> <br />
     <em> 
@@ -250,7 +248,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 <p align="center">
     <img width="600" height="230" src="imgs/Search-and-Rescue.png"/> <br />
     <em> 
-    Figure 12: Search and Rescue for saving lives.
+    Figure 13: Search and Rescue for saving lives.
     </em>
 </p>
 
@@ -259,7 +257,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 <p align="center">
     <img width="2014" height="320" src="imgs/UnderwaterEnhancment.png"/> <br />
     <em> 
-    Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details.
+    Figure 14: Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details.
     </em>
 </p>
 
@@ -296,3 +294,5 @@ and
 etc.)
 
 - [ ] Support distributed training
+
+- [ ] Add more comprehensive competitors
