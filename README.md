@@ -56,11 +56,15 @@ if you are using SINet or evaluation toolbox for your research!
 
 > To be continued, please star our project for the updating infos.
 
-![alt text](imgs/SINet.png)
-Figure 3: Overview of our SINet framework, which consists of two main components: the receptive field (RF) 
-and partial decoder component (PDC). The RF is introduced to mimic the structure of RFs in the human visual system. 
-The PDC reproduces the search and identification stages of animal predation. 
-SA = search attention function described in [71]. See x 4 for details.
+<p align="center">
+    <img src="imgs/SINet.png"/> <br />
+    <em> 
+    Figure 3: Overview of our SINet framework, which consists of two main components: the receptive field (RF) 
+    and partial decoder component (PDC). The RF is introduced to mimic the structure of RFs in the human visual system. 
+    The PDC reproduces the search and identification stages of animal predation. 
+    SA = search attention function described in [71]. See x 4 for details.
+    </em>
+</p>
 
 ### 2.2. Usage
 
@@ -106,23 +110,41 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 ## 3. Results
 
 ### 3.1. Qualitative Comparison
-![alt text](imgs/CmpResults.png)
-Figure 4: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
+<p align="center">
+    <img src="imgs/CmpResults.png"/> <br />
+    <em> 
+    Figure 4: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
+    </em>
+</p>
 
 ### 3.2. Quantitative Comparison (overall/sub-class scores)
-![alt text](imgs/QuantitativeResults.png)
-Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See Section 5.1 for 
-training details: (i) CPD1K, (ii) CAMO, (iii) COD10K, (iv) CPD1K + CAMO + COD10K. 
-Note that the ANet-SRM model (only trained on CAMO) does not have a publicly available code, thus other results 
-are not available. $E_\phi$ denotes mean Emeasure. Baseline models are trained using the training setting (iv). 
+<p align="center">
+    <img src="imgs/QuantitativeResults.png"/> <br />
+    <em> 
+    Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See Section 5.1 for 
+    training details: (i) CPD1K, (ii) CAMO, (iii) COD10K, (iv) CPD1K + CAMO + COD10K. 
+    Note that the ANet-SRM model (only trained on CAMO) does not have a publicly available code, thus other results 
+    are not available. $E_\phi$ denotes mean Emeasure. Baseline models are trained using the training setting (iv).
+    </em>
+</p>
+ 
 
-<div align=center><img width="860" height="1060" src="imgs/SubClassResults.png"/></div>
-Table 2: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(1/2). The best
-score of each category is highlighted in bold. <br>
+<p align="center">
+    <img width="860" height="1060" src="imgs/SubClassResults.png"/> <br />
+    <em> 
+    Table 2: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(1/2). The best
+    score of each category is highlighted in bold.
+    </em>
+</p>
 
-<div align=center><img width="850" height="1050" src="imgs/SubClassResults-1.png"/></div>
-Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
-score of each category is highlighted in bold. <br>
+
+<p align="center">
+    <img width="850" height="1050" src="imgs/SubClassResults-1.png"/> <br />
+    <em> 
+    Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
+    score of each category is highlighted in bold.
+    </em>
+</p>
 
 ### 3.3. Results Download 
 
@@ -169,36 +191,77 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 
 ## 5. Evaluation Toolbox
 
-We provide complete and fair one-key evaluation toolbox for benmarking within a uniform standard. 
+We provide complete and fair one-key evaluation toolbox for benchmarking within a uniform standard. 
 Please refer to this link for more information: https://github.com/DengPingFan/CODToolbox
 
 ## 5. Potential Applications
 
-1. Medical (Polyp Segmentation)
-![alt text](imgs/PolypSegmentation.png)
-    Lung Infection Segmentation
-  
-<div align=center><img width="600" height="230" src="imgs/COVID'19-Infection.png"/></div>   
-    Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, and consolidation, respectively. The images are collected from [1].<br>
-[1] COVID-19 CT segmentation dataset, link: https://medicalsegmentation.com/covid19/, accessed: 2020-04-11.
+1. Medical (Polyp Segmentation and COVID-19 Infection Segmentation Diagnose)
 
-2. Agriculture (locust detection to prevent invasion)<br>
-<div align=center><img width="600" height="230" src="imgs/locust%20detection.png"/></div>
+<p align="center">
+    <img src="imgs/PolypSegmentation.png"/> <br />
+    <em> 
+    Figure 8: Lung Infection Segmentation.
+    </em>
+</p>
+    
+ 
+<p align="center">
+    <img width="600" height="230" src="imgs/COVID'19-Infection.png"/> <br />
+    <em> 
+    Figure 9: Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, 
+    and consolidation, respectively. The images are collected from here. 
+    (COVID-19 CT segmentation dataset (link: https://medicalsegmentation.com/covid19/, accessed: 2020-04-11).)
+    </em>
+</p>
 
-3. Art (e.g., for photorealistic blending, or recreational art)<br>
-Camouflaging an Object from Many Viewpoints<br>
-<div align=center><img width="600" height="230" src="imgs/CamouflagingFromMultiView.png"/></div>
-The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.).<br>
+
+2. Agriculture (locust detection to prevent invasion)
+
+<p align="center">
+    <img width="600" height="230" src="imgs/locust%20detection.png"/> <br />
+    <em> 
+    Figure 10: Locust disaster detection.
+    </em>
+</p>
+
+3. Art (e.g., for photorealistic blending, or recreational art)
+
+    Camouflaging an Object from Many Viewpoints
+    
+<p align="center">
+    <img width="600" height="230" src="imgs/CamouflagingFromMultiView.png"/> <br />
+    <em> 
+    Figure 11: The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.)
+    </em>
+</p>
 
 4. Military (for discriminating enemies)
-<div align=center><img width="600" height="220" src="imgs/Telescope.png"/></div>
+
+<p align="center">
+    <img width="600" height="220" src="imgs/Telescope.png"/> <br />
+    <em> 
+    Figure 12: Applications of military.
+    </em>
+</p>
 
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
-<div align=center><img width="600" height="230" src="imgs/Search-and-Rescue.png"/></div>
 
-6. Underwater Image Enhancement<br>
-<div align=center><img width="2014" height="320" src="imgs/UnderwaterEnhancment.png"/></div>
-Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details. <br>
+<p align="center">
+    <img width="600" height="230" src="imgs/Search-and-Rescue.png"/> <br />
+    <em> 
+    Figure 12: Search and Rescue for saving lives.
+    </em>
+</p>
+
+6. Underwater Image Enhancement
+
+<p align="center">
+    <img width="2014" height="320" src="imgs/UnderwaterEnhancment.png"/> <br />
+    <em> 
+    Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details.
+    </em>
+</p>
 
 ## 6. User Study Test
 
@@ -220,6 +283,16 @@ We would like to thank image annotator and xxx for helpful feedback and discussi
 
 ## 9. TODO LIST
 
-- [x] Support `NVIDIA APEX` training
-- [ ] Support different backbones (VGGNet, ResNet, Res2Net, iResNet, and ResNeSt etc.)
+- [ ] Support `NVIDIA APEX` training
+
+- [ ] Support different backbones (
+VGGNet, 
+ResNet, 
+[ResNeXt](https://github.com/facebookresearch/ResNeXt)
+[Res2Net](https://github.com/Res2Net/Res2Net-PretrainedModels), 
+[iResNet](https://github.com/iduta/iresnet), 
+and 
+[ResNeSt](https://github.com/zhanghang1989/ResNeSt) 
+etc.)
+
 - [ ] Support distributed training
