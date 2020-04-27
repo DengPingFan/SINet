@@ -16,6 +16,8 @@ and read the [manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetC
 Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 if you are using SINet or evaluation toolbox for your research!
 
+- Any quesetions please contact to [Deng-Ping Fan](dengpfan@gmail.com) or [Ge-Peng Ji](gepengai.ji@gmail.com).
+
 ### --> NEWS <--
 
 - [2020/04/25] Training/Testing code will be updated soon ...
