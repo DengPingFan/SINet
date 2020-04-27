@@ -56,8 +56,6 @@ if you are using SINet or evaluation toolbox for your research!
 
 ### 2.1. Overview
 
-> To be continued, please star our project for the updating infos.
-
 <p align="center">
     <img src="imgs/SINet.png"/> <br />
     <em> 
@@ -71,7 +69,9 @@ if you are using SINet or evaluation toolbox for your research!
 ### 2.2. Usage
 
 The training and testing experiments are conducted using [PyTorch](https://github.com/pytorch/pytorch) with 
-a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also supports low memory GPU (~xx MB per image))
+a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also supports low memory GPU (~xx MB per image)).
+
+> To be continued, please star our project for the updating infos.
 
 1. Configuring your environment (Prerequisites):
     
