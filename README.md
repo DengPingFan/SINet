@@ -16,7 +16,7 @@ and read the [manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetC
 Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 if you are using SINet or evaluation toolbox for your research!
 
-### NEWS
+### --> NEWS <--
 
 - [2020/04/25] Training/Testing code will be updated soon ...
 
@@ -73,11 +73,11 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 
 1. Configuring your environment (Prerequisites):
     
-    Note that we only test on the aforementioned versions, and thus, any other version may be error!)
+    Note that SINet is only tested on Ubuntu OS with the following eviornments. It may work on other operating systems as well but we do not guarantee that it will.
     
     + creating a virtual environment: `conda create -n SINet python=3.6`
     
-    + installing apex for accelerate training process
+    + installing apex for accelerate training process with mixed precision.
     
     + installing necessary packages: `pip install -r requirements.txt`
 
@@ -104,7 +104,7 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 
 4. Evaluation your trained model:
 
-    + One-key evaluation is written in MATLAB code (revised from [link]()), please follow this [instructions]().
+    + One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), please follow this [instructions]().
 
 
 ## 3. Results
@@ -194,7 +194,7 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 We provide complete and fair one-key evaluation toolbox for benchmarking within a uniform standard. 
 Please refer to this link for more information: https://github.com/DengPingFan/CODToolbox
 
-## 5. Potential Applications
+## 6. Potential Applications
 
 1. Medical (Polyp Segmentation and COVID-19 Infection Segmentation Diagnose)
 
@@ -261,11 +261,11 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
     </em>
 </p>
 
-## 6. User Study Test
+## 7. User Study Test
 
 http://dpfan.net/wp-content/uploads/UserStudy-V1.1-8test.pptx
 
-## 7. Citation
+## 8. Citation
 Please cite our paper if you find the work useful: 
 
 	@inproceedings{fan2020Camouflage,
@@ -275,11 +275,11 @@ Please cite our paper if you find the work useful:
   	year={2020}
 	}
   
-## 8. Acknowledgements
+## 9. Acknowledgements
 
-We would like to thank image annotator and xxx for helpful feedback and discussion.
+We would like to thank authors of CHAMELEON, CPD1K, CAMO dataset for their work. They provide tremendous efforts in these datasets to boost this field. We also appreciate image annotators and [Wenguan Wang](https://scholar.google.com/citations?user=lZQRrrkAAAAJ&hl=zh-CN), [Geng Chen](), [Hongsong Wang](https://scholar.google.com/citations?hl=zh-CN&user=LzQnGacAAAAJ) for insightful feedback and discussion.
 
-## 9. TODO LIST
+## 10. TODO LIST
 
 - [ ] Support `NVIDIA APEX` training
 
