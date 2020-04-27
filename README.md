@@ -21,19 +21,28 @@ if you are using SINet or evaluation toolbox for your research!
 - [2020/04/25] Training/Testing code will be updated soon ...
 
 ## 1. Task Relationship
-![alt text](imgs/TaskRelationship.png)
-Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
-Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of 
-generic objects. Typical generic object detection tasks include semantic segmentation and panoptic 
-segmentation (see Fig. 2 b).
 
-![alt text](imgs/CamouflagedTask.png)
-Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation 
-(which detects generic objects including stuff and things), (c) salient instance/object detection 
-(which detects objects that grasp human attention), and (d) the proposed camouflaged object detection task, 
-where the goal is to detect objects that have a similar pattern (e.g., edge, texture, or color) to the natural habitat. 
-In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify. 
-This task is far more challenging than the traditional salient object detection or generic object detection.
+<p align="center">
+    <img src="imgs/TaskRelationship.png"/> <br />
+    <em> 
+    Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
+    Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of 
+    generic objects. Typical generic object detection tasks include semantic segmentation and panoptic 
+    segmentation (see Fig. 2 b).
+    </em>
+</p>
+
+<p align="center">
+    <img src="imgs/CamouflagedTask.png"/> <br />
+    <em> 
+    Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation 
+    (which detects generic objects including stuff and things), (c) salient instance/object detection 
+    (which detects objects that grasp human attention), and (d) the proposed camouflaged object detection task, 
+    where the goal is to detect objects that have a similar pattern (e.g., edge, texture, or color) to the natural habitat. 
+    In this case, the boundaries of the two butterflies are blended with the bananas, making them difficult to identify. 
+    This task is far more challenging than the traditional salient object detection or generic object detection.
+    </em>
+</p>
 
 > References of Salient Object Detection (SOD) benchmark works<br>
 > [1] Video SOD: Shifting More Attention to Video Salient Object Detection. CVPR, 2019. ([Project Page](http://dpfan.net/davsod/))<br>
@@ -47,11 +56,15 @@ This task is far more challenging than the traditional salient object detection 
 
 > To be continued, please star our project for the updating infos.
 
-![alt text](imgs/SINet.png)
-Figure 3: Overview of our SINet framework, which consists of two main components: the receptive field (RF) 
-and partial decoder component (PDC). The RF is introduced to mimic the structure of RFs in the human visual system. 
-The PDC reproduces the search and identification stages of animal predation. 
-SA = search attention function described in [71]. See x 4 for details.
+<p align="center">
+    <img src="imgs/SINet.png"/> <br />
+    <em> 
+    Figure 3: Overview of our SINet framework, which consists of two main components: the receptive field (RF) 
+    and partial decoder component (PDC). The RF is introduced to mimic the structure of RFs in the human visual system. 
+    The PDC reproduces the search and identification stages of animal predation. 
+    SA = search attention function described in [71]. See x 4 for details.
+    </em>
+</p>
 
 ### 2.2. Usage
 
@@ -97,23 +110,41 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 ## 3. Results
 
 ### 3.1. Qualitative Comparison
-![alt text](imgs/CmpResults.png)
-Figure 4: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
+<p align="center">
+    <img src="imgs/CmpResults.png"/> <br />
+    <em> 
+    Figure 4: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
+    </em>
+</p>
 
 ### 3.2. Quantitative Comparison (overall/sub-class scores)
-![alt text](imgs/QuantitativeResults.png)
-Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See Section 5.1 for 
-training details: (i) CPD1K, (ii) CAMO, (iii) COD10K, (iv) CPD1K + CAMO + COD10K. 
-Note that the ANet-SRM model (only trained on CAMO) does not have a publicly available code, thus other results 
-are not available. $E_\phi$ denotes mean Emeasure. Baseline models are trained using the training setting (iv). 
+<p align="center">
+    <img src="imgs/QuantitativeResults.png"/> <br />
+    <em> 
+    Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See Section 5.1 for 
+    training details: (i) CPD1K, (ii) CAMO, (iii) COD10K, (iv) CPD1K + CAMO + COD10K. 
+    Note that the ANet-SRM model (only trained on CAMO) does not have a publicly available code, thus other results 
+    are not available. $E_\phi$ denotes mean Emeasure. Baseline models are trained using the training setting (iv).
+    </em>
+</p>
+ 
 
-<div align=center><img width="860" height="1060" src="imgs/SubClassResults.png"/></div>
-Table 2: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(1/2). The best
-score of each category is highlighted in bold. <br>
+<p align="center">
+    <img width="860" height="1060" src="imgs/SubClassResults.png"/> <br />
+    <em> 
+    Table 2: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(1/2). The best
+    score of each category is highlighted in bold.
+    </em>
+</p>
 
-<div align=center><img width="850" height="1050" src="imgs/SubClassResults-1.png"/></div>
-Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
-score of each category is highlighted in bold. <br>
+
+<p align="center">
+    <img width="850" height="1050" src="imgs/SubClassResults-1.png"/> <br />
+    <em> 
+    Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
+    score of each category is highlighted in bold.
+    </em>
+</p>
 
 ### 3.3. Results Download 
 
@@ -129,54 +160,106 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 [4] Camouflaged Object Detection, CVPR, 2020.
 
 ## 4. Proposed COD10K Datasets
-<div align=center><img width="850" height="1070" src="imgs/COD10K-1.png"/></div>
-Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.<br>
 
-<div align=center><img width="850" height="680" src="imgs/COD10K-2.png"/></div>
-Figure 6: Annotation diversity and meticulousness in the proposed COD10K dataset. Instead of only providing coarse-grained
- object-level annotations with the three major types of bias (e.g., Watermark embedded, Coarse annotation, and Occlusion) 
- in prior works, we offer six different annotations, which include edge-level (4rd row), object-level (5rd row), 
- instance-level (6rd row), bounding boxes (7rd row), and attributes (8rd row). Refer to the manuscript for more attribute 
- details.<br>
+<p align="center">
+    <img width="850" height="1070" src="imgs/COD10K-1.png"/> <br />
+    <em> 
+    Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.
+    </em>
+</p>
 
-<div align=center><img width="850" height="440" src="imgs/COD10K-3.png"/></div>
-Figure 7: Regularized quality control during our labeling reverification stage. Strictly adheres to the 
-four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.<br>
+<p align="center">
+    <img width="850" height="680" src="imgs/COD10K-2.png"/> <br />
+    <em> 
+    Figure 6: Annotation diversity and meticulousness in the proposed COD10K dataset. Instead of only providing coarse-grained
+    object-level annotations with the three major types of bias (e.g., Watermark embedded, Coarse annotation, and Occlusion) 
+    in prior works, we offer six different annotations, which include edge-level (4rd row), object-level (5rd row), 
+    instance-level (6rd row), bounding boxes (7rd row), and attributes (8rd row). Refer to the manuscript for more attribute 
+    details.
+    </em>
+</p>
+
+<p align="center">
+    <img width="850" height="440" src="imgs/COD10K-3.png"/> <br />
+    <em> 
+    Figure 7: Regularized quality control during our labeling reverification stage. Strictly adheres to the 
+    four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.
+    </em>
+</p>
 
 > COD10K datasets: coming soon.
 
 ## 5. Evaluation Toolbox
 
-We provide complete and fair one-key evaluation toolbox for benmarking within a uniform standard. 
+We provide complete and fair one-key evaluation toolbox for benchmarking within a uniform standard. 
 Please refer to this link for more information: https://github.com/DengPingFan/CODToolbox
 
 ## 6. Potential Applications
 
-1. Medical (Polyp Segmentation)
-![alt text](imgs/PolypSegmentation.png)
-    Lung Infection Segmentation
-  
-<div align=center><img width="600" height="230" src="imgs/COVID'19-Infection.png"/></div>   
-    Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, and consolidation, respectively. The images are collected from [1].<br>
-[1] COVID-19 CT segmentation dataset, link: https://medicalsegmentation.com/covid19/, accessed: 2020-04-11.
+1. Medical (Polyp Segmentation and COVID-19 Infection Segmentation Diagnose)
 
-2. Agriculture (locust detection to prevent invasion)<br>
-<div align=center><img width="600" height="230" src="imgs/locust%20detection.png"/></div>
+<p align="center">
+    <img src="imgs/PolypSegmentation.png"/> <br />
+    <em> 
+    Figure 8: Lung Infection Segmentation.
+    </em>
+</p>
+    
+ 
+<p align="center">
+    <img width="600" height="230" src="imgs/COVID'19-Infection.png"/> <br />
+    <em> 
+    Figure 9: Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, 
+    and consolidation, respectively. The images are collected from here. 
+    (COVID-19 CT segmentation dataset (link: https://medicalsegmentation.com/covid19/, accessed: 2020-04-11).)
+    </em>
+</p>
 
-3. Art (e.g., for photorealistic blending, or recreational art)<br>
-Camouflaging an Object from Many Viewpoints<br>
-<div align=center><img width="600" height="230" src="imgs/CamouflagingFromMultiView.png"/></div>
-The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.).<br>
+
+2. Agriculture (locust detection to prevent invasion)
+
+<p align="center">
+    <img width="600" height="230" src="imgs/locust%20detection.png"/> <br />
+    <em> 
+    Figure 10: Locust disaster detection.
+    </em>
+</p>
+
+3. Art (e.g., for photorealistic blending, or recreational art)
+
+<p align="center">
+    <img width="600" height="230" src="imgs/CamouflagingFromMultiView.png"/> <br />
+    <em> 
+    Figure 11: The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.)
+    </em>
+</p>
 
 4. Military (for discriminating enemies)
-<div align=center><img width="600" height="220" src="imgs/Telescope.png"/></div>
+
+<p align="center">
+    <img width="600" height="220" src="imgs/Telescope.png"/> <br />
+    <em> 
+    Figure 12: Applications of military.
+    </em>
+</p>
 
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
-<div align=center><img width="600" height="230" src="imgs/Search-and-Rescue.png"/></div>
 
-6. Underwater Image Enhancement<br>
-<div align=center><img width="2014" height="320" src="imgs/UnderwaterEnhancment.png"/></div>
-Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details. <br>
+<p align="center">
+    <img width="600" height="230" src="imgs/Search-and-Rescue.png"/> <br />
+    <em> 
+    Figure 13: Search and Rescue for saving lives.
+    </em>
+</p>
+
+6. Underwater Image Enhancement
+
+<p align="center">
+    <img width="2014" height="320" src="imgs/UnderwaterEnhancment.png"/> <br />
+    <em> 
+    Figure 14: Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details.
+    </em>
+</p>
 
 ## 7. User Study Test
 
@@ -198,6 +281,18 @@ We would like to thank authors of CHAMELEON, CPD1K, CAMO dataset for their work.
 
 ## 10. TODO LIST
 
-- [x] Support `NVIDIA APEX` training
-- [ ] Support different backbones (VGGNet, ResNet, Res2Net, iResNet, and ResNeSt etc.)
+- [ ] Support `NVIDIA APEX` training
+
+- [ ] Support different backbones (
+VGGNet, 
+ResNet, 
+[ResNeXt](https://github.com/facebookresearch/ResNeXt)
+[Res2Net](https://github.com/Res2Net/Res2Net-PretrainedModels), 
+[iResNet](https://github.com/iduta/iresnet), 
+and 
+[ResNeSt](https://github.com/zhanghang1989/ResNeSt) 
+etc.)
+
 - [ ] Support distributed training
+
+- [ ] Add more comprehensive competitors
