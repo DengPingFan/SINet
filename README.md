@@ -107,7 +107,8 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 4. Evaluation your trained model:
 
     + One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), please follow this [instructions]().
-
+    
+    + Just run `main.m` to generate the evaluation results.
 
 ## 3. Results
 
@@ -120,6 +121,7 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 </p>
 
 ### 3.2. Quantitative Comparison (overall/sub-class scores)
+
 <p align="center">
     <img src="imgs/QuantitativeResults.png"/> <br />
     <em> 
@@ -279,7 +281,12 @@ Please cite our paper if you find the work useful:
   
 ## 9. Acknowledgements
 
-We would like to thank authors of CHAMELEON, CPD1K, CAMO dataset for their work. They provide tremendous efforts in these datasets to boost this field. We also appreciate image annotators and [Wenguan Wang](https://scholar.google.com/citations?user=lZQRrrkAAAAJ&hl=zh-CN), [Geng Chen](), [Hongsong Wang](https://scholar.google.com/citations?hl=zh-CN&user=LzQnGacAAAAJ) for insightful feedback and discussion.
+We would like to thank authors of CHAMELEON, CPD1K, and CAMO dataset for their work. 
+They provide tremendous efforts in these dataset to boost this field. 
+We also appreciate image annotators and 
+[Wenguan Wang](https://scholar.google.com/citations?user=lZQRrrkAAAAJ&hl=zh-CN), 
+[Geng Chen](), 
+[Hongsong Wang](https://scholar.google.com/citations?hl=zh-CN&user=LzQnGacAAAAJ) for insightful feedback and discussion.
 
 ## 10. TODO LIST
 
