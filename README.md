@@ -267,7 +267,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 
 ## 7. User Study Test
 
-http://dpfan.net/wp-content/uploads/UserStudy-V1.1-8test.pptx
+[--> Click here for more interest things (YouTube) <--](https://youtu.be/Ovv_leSGKDw)
 
 ## 8. Citation
 Please cite our paper if you find the work useful: 
