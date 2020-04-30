@@ -50,7 +50,7 @@ if you are using SINet or evaluation toolbox for your research!
 ## 1. Task Relationship
 
 <p align="center">
-    <img src="imgs/TaskRelationship.png"/> <br />
+    <img src="Images/TaskRelationship.png"/> <br />
     <em> 
     Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
     Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of 
@@ -60,7 +60,7 @@ if you are using SINet or evaluation toolbox for your research!
 </p>
 
 <p align="center">
-    <img src="imgs/CamouflagedTask.png"/> <br />
+    <img src="Images/CamouflagedTask.png"/> <br />
     <em> 
     Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation 
     (which detects generic objects including stuff and things), (c) salient instance/object detection 
@@ -82,7 +82,7 @@ if you are using SINet or evaluation toolbox for your research!
 ### 2.1. Overview
 
 <p align="center">
-    <img src="imgs/SINet.png"/> <br />
+    <img src="Images/SINet.png"/> <br />
     <em> 
     Figure 3: Overview of our SINet framework, which consists of two main components: the receptive field (RF) 
     and partial decoder component (PDC). The RF is introduced to mimic the structure of RFs in the human visual system. 
@@ -139,7 +139,7 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 
 ### 3.1. Qualitative Comparison
 <p align="center">
-    <img src="imgs/CmpResults.png"/> <br />
+    <img src="Images/CmpResults.png"/> <br />
     <em> 
     Figure 4: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
     </em>
@@ -148,7 +148,7 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 ### 3.2. Quantitative Comparison (overall/sub-class scores)
 
 <p align="center">
-    <img src="imgs/QuantitativeResults.png"/> <br />
+    <img src="Images/QuantitativeResults.png"/> <br />
     <em> 
     Table 1: Quantitative results on different datasets. The best scores are highlighted in bold. See Section 5.1 for 
     training details: (i) CPD1K, (ii) CAMO, (iii) COD10K, (iv) CPD1K + CAMO + COD10K. 
@@ -159,7 +159,7 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 
 
 <p align="center">
-    <img width="860" height="1060" src="imgs/SubClassResults.png"/> <br />
+    <img width="860" height="1060" src="Images/SubClassResults.png"/> <br />
     <em> 
     Table 2: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(1/2). The best
     score of each category is highlighted in bold.
@@ -168,7 +168,7 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 
 
 <p align="center">
-    <img width="850" height="1050" src="imgs/SubClassResults-1.png"/> <br />
+    <img width="850" height="1050" src="Images/SubClassResults-1.png"/> <br />
     <em> 
     Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
     score of each category is highlighted in bold.
@@ -191,14 +191,14 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 ## 4. Proposed COD10K Datasets
 
 <p align="center">
-    <img width="850" height="1070" src="imgs/COD10K-1.png"/> <br />
+    <img width="850" height="1070" src="Images/COD10K-1.png"/> <br />
     <em> 
     Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (1/5)–Terrestrial animals.
     </em>
 </p>
 
 <p align="center">
-    <img width="850" height="680" src="imgs/COD10K-2.png"/> <br />
+    <img width="850" height="680" src="Images/COD10K-2.png"/> <br />
     <em> 
     Figure 6: Annotation diversity and meticulousness in the proposed COD10K dataset. Instead of only providing coarse-grained
     object-level annotations with the three major types of bias (e.g., Watermark embedded, Coarse annotation, and Occlusion) 
@@ -209,7 +209,7 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 </p>
 
 <p align="center">
-    <img width="850" height="440" src="imgs/COD10K-3.png"/> <br />
+    <img width="850" height="440" src="Images/COD10K-3.png"/> <br />
     <em> 
     Figure 7: Regularized quality control during our labeling reverification stage. Strictly adheres to the 
     four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.
@@ -228,7 +228,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 1. Medical (Polyp Segmentation and COVID-19 Infection Segmentation Diagnose)
 
 <p align="center">
-    <img src="imgs/PolypSegmentation.png"/> <br />
+    <img src="Images/PolypSegmentation.png"/> <br />
     <em> 
     Figure 8: Lung Infection Segmentation.
     </em>
@@ -236,7 +236,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 ​    
 
 <p align="center">
-    <img width="600" height="230" src="imgs/COVID'19-Infection.png"/> <br />
+    <img width="600" height="230" src="Images/COVID'19-Infection.png"/> <br />
     <em> 
     Figure 9: Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, 
     and consolidation, respectively. The images are collected from here. 
@@ -248,7 +248,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 2. Agriculture (locust detection to prevent invasion)
 
 <p align="center">
-    <img width="600" height="230" src="imgs/locust%20detection.png"/> <br />
+    <img width="600" height="230" src="Images/locust%20detection.png"/> <br />
     <em> 
     Figure 10: Locust disaster detection.
     </em>
@@ -257,7 +257,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 3. Art (e.g., for photorealistic blending, or recreational art)
 
 <p align="center">
-    <img width="600" height="230" src="imgs/CamouflagingFromMultiView.png"/> <br />
+    <img width="600" height="230" src="Images/CamouflagingFromMultiView.png"/> <br />
     <em> 
     Figure 11: The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.)
     </em>
@@ -266,7 +266,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 4. Military (for discriminating enemies)
 
 <p align="center">
-    <img width="600" height="220" src="imgs/Telescope.png"/> <br />
+    <img width="600" height="220" src="Images/Telescope.png"/> <br />
     <em> 
     Figure 12: Applications of military.
     </em>
@@ -275,7 +275,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
 
 <p align="center">
-    <img width="600" height="230" src="imgs/Search-and-Rescue.png"/> <br />
+    <img width="600" height="230" src="Images/Search-and-Rescue.png"/> <br />
     <em> 
     Figure 13: Search and Rescue for saving lives.
     </em>
@@ -284,7 +284,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 6. Underwater Image Enhancement
 
 <p align="center">
-    <img width="2014" height="320" src="imgs/UnderwaterEnhancment.png"/> <br />
+    <img width="2014" height="320" src="Images/UnderwaterEnhancment.png"/> <br />
     <em> 
     Figure 14: Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details.
     </em>

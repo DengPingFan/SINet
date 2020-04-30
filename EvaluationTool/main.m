@@ -1,18 +1,30 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Evaluation tool boxs for 'Camouflaged Object Detection`
+%Accepted by Oral Presentation in CVPR, 2020
+%Author: Deng-Ping Fan, Ge-Peng Ji, Guolei Sun, Ming-Ming Cheng, Jianbing Shen, Ling Shao
+%Homepage: http://dpfan.net/
+%Projectpage: https://github.com/DengPingFan/SINet
+%First version: 2020-4-15
+%Any questions please contact with dengpingfan@nankai.edu.cn.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Function: Providing several important metrics: S-m (ICCV'17), E-m (IJCAI'18), Precision, Recall, MAE.
+
+
 clear all;
 close all; 
 clc;
 
 % ---- 1. Camouflage Map Path Setting ----
-CamMapPath = '../res/2020-CVPR-SINet/';   % Put model results in this folder.
+CamMapPath = '../Result/2020-CVPR-SINet/';   % Put model results in this folder.
 Models = {'2020-CVPR-SINet'};   % You can add other model like this format: Models = {'2019-ICCV-EGNet','2019-CVPR-CPD'};
 modelNum = length(Models);
 
 % ---- 2. Ground-truth Datasets Setting ----
-DataPath = '../data/';
+DataPath = '../Dataset/';
 Datasets = {'COD10K'};  % You may also need other datasets, such as Datasets = {'CAMO','CPD1K'};
 
 % ---- 3. Results Save Path Setting ----
-ResDir = './Results/Result-COD10K-test/';
+ResDir = './EvaluationResults/Result-COD10K-test/';
 ResName='_result.txt';  % You can change the result name.
 
 Thresholds = 1:-1/255:0;
