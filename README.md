@@ -7,18 +7,45 @@
 > [Jianbing Shen](http://iitlab.bit.edu.cn/mcislab/~shenjianbing), 
 > [Ling Shao](http://www.inceptioniai.org/).
 
+## 0. Preface
+
 - This repository includes detailed introduction, strong baseline 
 (Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named 
-Camouflaged Object Detection (COD).
+**_Camouflaged Object Detection (COD)_**.
 
-- For more information about Camouflaged Object Detection, please visit our [project page](http://dpfan.net/Camouflage/) 
-and read the [manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf). 
+- For more information about Camouflaged Object Detection, please visit our [Project Page](http://dpfan.net/Camouflage/) 
+and read the [Manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf) / Supplementary Materials. 
 Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 if you are using SINet or evaluation toolbox for your research!
 
 - Any quesetions please contact to [Deng-Ping Fan](dengpfan@gmail.com) or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail.
 
-### --> NEWS <--
+### 0.1. Table of Contents
+
+- [Camouflaged Object Detection (Accepted by Oral Presentation in CVPR, 2020)](#camouflaged-object-detection--accepted-by-oral-presentation-in-cvpr--2020-)
+  * [0. Preface](#0-preface)
+    + [0.1. Table of Contents](#01-table-of-contents)
+    + [0.2. NEWS](#02-news)
+  * [1. Task Relationship](#1-task-relationship)
+  * [2. Proposed Baseline](#2-proposed-baseline)
+    + [2.1. Overview](#21-overview)
+    + [2.2. Usage](#22-usage)
+  * [3. Results](#3-results)
+    + [3.1. Qualitative Comparison](#31-qualitative-comparison)
+    + [3.2. Quantitative Comparison (overall/sub-class scores)](#32-quantitative-comparison--overall-sub-class-scores-)
+    + [3.3. Results Download](#33-results-download)
+  * [4. Proposed COD10K Datasets](#4-proposed-cod10k-datasets)
+  * [5. Evaluation Toolbox](#5-evaluation-toolbox)
+  * [6. Potential Applications](#6-potential-applications)
+  * [7. User Study Test](#7-user-study-test)
+  * [8. Citation](#8-citation)
+  * [9. Acknowledgements](#9-acknowledgements)
+  * [10. TODO LIST](#10-todo-list)
+  * [11. FAQ](#11-faq)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+### 0.2. NEWS
 
 - [2020/04/25] Training/Testing code will be updated soon ...
 
@@ -74,7 +101,7 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 > To be continued, please star our project for the updating infos.
 
 1. Configuring your environment (Prerequisites):
-    
+   
     Note that SINet is only tested on Ubuntu OS with the following eviornments. It may work on other operating systems as well but we do not guarantee that it will.
     
     + creating a virtual environment: `conda create -n SINet python=3.6`
@@ -131,7 +158,7 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
     are not available. $E_\phi$ denotes mean Emeasure. Baseline models are trained using the training setting (iv).
     </em>
 </p>
- 
+
 
 <p align="center">
     <img width="860" height="1060" src="imgs/SubClassResults.png"/> <br />
@@ -208,8 +235,8 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
     Figure 8: Lung Infection Segmentation.
     </em>
 </p>
-    
- 
+​    
+
 <p align="center">
     <img width="600" height="230" src="imgs/COVID'19-Infection.png"/> <br />
     <em> 
@@ -278,7 +305,7 @@ Please cite our paper if you find the work useful:
   	booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   	year={2020}
 	}
-  
+
 ## 9. Acknowledgements
 
 We would like to thank authors of CHAMELEON, CPD1K, and CAMO dataset for their work. 
@@ -289,6 +316,8 @@ We also appreciate image annotators and
 [Hongsong Wang](https://scholar.google.com/citations?hl=zh-CN&user=LzQnGacAAAAJ) for insightful feedback and discussion.
 
 ## 10. TODO LIST
+
+> If you want to improve the usability or any advices, please feel free to contact me directly ([E-mail](gepengai.ji@gmail.com)).
 
 - [ ] Support `NVIDIA APEX` training
 
@@ -305,3 +334,7 @@ etc.)
 - [ ] Support distributed training
 
 - [ ] Add more comprehensive competitors
+
+## 11. FAQ
+
+**[⬆ back to top](#0-preface)**
