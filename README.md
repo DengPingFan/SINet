@@ -9,8 +9,8 @@
 
 ## 0. Preface
 
-- This repository includes detailed introduction, strong baseline 
-(Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named 
+- This repository includes [detailed introduction]((#1-task-relationship)), [strong baseline](#2-proposed-baseline) 
+(Search & Identification Net, SINet), and [one-key evaluation codes](#5-evaluation-toolbox) for a brand new filed named 
 **_Camouflaged Object Detection (COD)_**.
 
 - For more information about Camouflaged Object Detection, please visit our [Project Page](http://dpfan.net/Camouflage/) 
