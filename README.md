@@ -43,8 +43,6 @@ if you are using SINet or evaluation toolbox for your research!
   * [10. TODO LIST](#10-todo-list)
   * [11. FAQ](#11-faq)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ### 0.2. NEWS
 
 - [2020/04/25] Training/Testing code will be updated soon ...
@@ -336,5 +334,8 @@ etc.)
 - [ ] Add more comprehensive competitors
 
 ## 11. FAQ
+
+
+---
 
 **[⬆ back to top](#0-preface)**
