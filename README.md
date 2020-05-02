@@ -329,6 +329,8 @@ and
 [ResNeSt](https://github.com/zhanghang1989/ResNeSt) 
 etc.)
 
+- [ ] Support lightweight architecture and real-time inference, like MobileNet, SqueezeNet.
+
 - [ ] Support distributed training
 
 - [ ] Add more comprehensive competitors
