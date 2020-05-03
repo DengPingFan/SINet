@@ -18,7 +18,7 @@ and read the [Manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetC
 Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 if you are using SINet or evaluation toolbox for your research!
 
-- Any quesetions please contact to [Deng-Ping Fan](dengpfan@gmail.com) or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail.
+- If you have any questions about the dataset or anythings, feel free to contact [Deng-Ping Fan](dengpfan@gmail.com) or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail.
 
 ### 0.1. Table of Contents
 
@@ -295,6 +295,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 [--> Click here to explore more interest things (YouTube Link) <--](https://youtu.be/Ovv_leSGKDw)
 
 ## 8. Citation
+
 Please cite our paper if you find the work useful: 
 
 	@inproceedings{fan2020Camouflage,
@@ -304,20 +305,27 @@ Please cite our paper if you find the work useful:
   	year={2020}
 	}
 
+## 9. LICENSE
+
+- The COD10K Dataset is made available for non-commercial purposes only.
+
+- You will not, directly or indirectly, reproduce, use, or convey the COD10K Dataset 
+or any Content, or any work product or data derived therefrom, for commercial purposes.
+
 ## 9. Acknowledgements
 
 We would like to thank authors of CHAMELEON, CPD1K, and CAMO dataset for their work. 
 They provide tremendous efforts in these dataset to boost this field. 
 We also appreciate image annotators and 
 [Wenguan Wang](https://scholar.google.com/citations?user=lZQRrrkAAAAJ&hl=zh-CN), 
-[Geng Chen](), 
+[Geng Chen](https://www.researchgate.net/profile/Geng_Chen13), 
 [Hongsong Wang](https://scholar.google.com/citations?hl=zh-CN&user=LzQnGacAAAAJ) for insightful feedback and discussion.
 
 ## 10. TODO LIST
 
 > If you want to improve the usability or any advices, please feel free to contact me directly ([E-mail](gepengai.ji@gmail.com)).
 
-- [ ] Support `NVIDIA APEX` training
+- [ ] Support `NVIDIA APEX` training.
 
 - [ ] Support different backbones (
 VGGNet, 
@@ -329,9 +337,9 @@ and
 [ResNeSt](https://github.com/zhanghang1989/ResNeSt) 
 etc.)
 
-- [ ] Support distributed training
+- [ ] Support distributed training.
 
-- [ ] Add more comprehensive competitors
+- [ ] Add more comprehensive competitors.
 
 ## 11. FAQ
 
