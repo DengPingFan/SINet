@@ -263,16 +263,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
     </em>
 </p>
 
-4. Military (for discriminating enemies)
-
-<p align="center">
-    <img width="600" height="220" src="Images/Telescope.png"/> <br />
-    <em> 
-    Figure 12: Applications of military.
-    </em>
-</p>
-
-5. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
+4. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
 
 <p align="center">
     <img width="600" height="230" src="Images/Search-and-Rescue.png"/> <br />
@@ -281,7 +272,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
     </em>
 </p>
 
-6. Underwater Image Enhancement
+5. Underwater Image Enhancement
 
 <p align="center">
     <img width="2014" height="320" src="Images/UnderwaterEnhancment.png"/> <br />
@@ -337,7 +328,13 @@ and
 [ResNeSt](https://github.com/zhanghang1989/ResNeSt) 
 etc.)
 
+<<<<<<< HEAD
 - [ ] Support distributed training.
+=======
+- [ ] Support lightweight architecture and real-time inference, like MobileNet, SqueezeNet.
+
+- [ ] Support distributed training
+>>>>>>> fc2ea5709c51341e4a5dfea7f0d36ff2e1ff834f
 
 - [ ] Add more comprehensive competitors.
 
