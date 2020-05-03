@@ -10,8 +10,7 @@
 ## 0. Preface
 
 - This repository includes detailed introduction, strong baseline 
-(Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named 
-**_Camouflaged Object Detection (COD)_**.
+(Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named **_Camouflaged Object Detection (COD)_**.
 
 - For more information about Camouflaged Object Detection, please visit our [Project Page](http://dpfan.net/Camouflage/) 
 and read the [Manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf) / Supplementary Materials. 
@@ -32,16 +31,17 @@ if you are using SINet or evaluation toolbox for your research!
     + [2.2. Usage](#22-usage)
   * [3. Results](#3-results)
     + [3.1. Qualitative Comparison](#31-qualitative-comparison)
-    + [3.2. Quantitative Comparison (overall/sub-class scores)](#32-quantitative-comparison--overall-sub-class-scores-)
+    + [3.2. Quantitative Comparison (Overall/Sub-class)](#32-quantitative-comparison--overall-sub-class-)
     + [3.3. Results Download](#33-results-download)
   * [4. Proposed COD10K Datasets](#4-proposed-cod10k-datasets)
   * [5. Evaluation Toolbox](#5-evaluation-toolbox)
   * [6. Potential Applications](#6-potential-applications)
   * [7. User Study Test](#7-user-study-test)
   * [8. Citation](#8-citation)
-  * [9. Acknowledgements](#9-acknowledgements)
-  * [10. TODO LIST](#10-todo-list)
-  * [11. FAQ](#11-faq)
+  * [9. LICENSE](#9-license)
+  * [10. Acknowledgements](#10-acknowledgements)
+  * [11. TODO LIST](#11-todo-list)
+  * [12. FAQ](#12-faq)
 
 ### 0.2. NEWS
 
@@ -145,7 +145,7 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
     </em>
 </p>
 
-### 3.2. Quantitative Comparison (overall/sub-class scores)
+### 3.2. Quantitative Comparison (Overall/Sub-class)
 
 <p align="center">
     <img src="Images/QuantitativeResults.png"/> <br />
@@ -303,7 +303,7 @@ Please cite our paper if you find the work useful:
 - You will not, directly or indirectly, reproduce, use, or convey the COD10K Dataset 
 or any Content, or any work product or data derived therefrom, for commercial purposes.
 
-## 9. Acknowledgements
+## 10. Acknowledgements
 
 We would like to thank authors of CHAMELEON, CPD1K, and CAMO dataset for their work. 
 They provide tremendous efforts in these dataset to boost this field. 
@@ -312,7 +312,7 @@ We also appreciate image annotators and
 [Geng Chen](https://www.researchgate.net/profile/Geng_Chen13), 
 [Hongsong Wang](https://scholar.google.com/citations?hl=zh-CN&user=LzQnGacAAAAJ) for insightful feedback and discussion.
 
-## 10. TODO LIST
+## 11. TODO LIST
 
 > If you want to improve the usability or any advices, please feel free to contact me directly ([E-mail](gepengai.ji@gmail.com)).
 
@@ -328,21 +328,19 @@ and
 [ResNeSt](https://github.com/zhanghang1989/ResNeSt) 
 etc.)
 
-<<<<<<< HEAD
 - [ ] Support distributed training.
-=======
+
 - [ ] Support lightweight architecture and real-time inference, like MobileNet, SqueezeNet.
 
 - [ ] Support distributed training
->>>>>>> fc2ea5709c51341e4a5dfea7f0d36ff2e1ff834f
 
 - [ ] Add more comprehensive competitors.
 
-## 11. FAQ
+## 12. FAQ
 
 1. If the image cannot be loaded in the page (mostly in the domestic network situations).
 
-    [Solution Link](https://blog.csdn.net/weixin_42128813/article/details/102915578) 
+    [Solution Link](https://blog.csdn.net/weixin_42128813/article/details/102915578)
 
 ---
 
