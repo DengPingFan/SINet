@@ -13,11 +13,10 @@
 (Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named **_Camouflaged Object Detection (COD)_**.
 
 - For more information about Camouflaged Object Detection, please visit our [Project Page](http://dpfan.net/Camouflage/) 
-and read the [Manuscript](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf) / Supplementary Materials. 
-Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
-if you are using SINet or evaluation toolbox for your research!
+and read the [Manuscript (PDF)](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf) / Supplementary Materials (PDF).
 
 - If you have any questions about the dataset or anythings, feel free to contact [Deng-Ping Fan](dengpfan@gmail.com) or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail.
+Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) if you are using SINet or evaluation toolbox for your research!
 
 ### 0.1. Table of Contents
 
