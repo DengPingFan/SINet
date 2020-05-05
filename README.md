@@ -93,19 +93,21 @@ Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouf
 ### 2.2. Usage
 
 The training and testing experiments are conducted using [PyTorch](https://github.com/pytorch/pytorch) with 
-a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also supports low memory GPU (~xx MB per image)).
+a single GeForce RTX TITAN GPU of 24 GB Memory.
 
-> To be continued, please star our project for the updating infos.
+> Note that our model also supports low memory GPU, which means you can lower the batch size
+(~419 MB per image in `apex-mode=O1`, and ~305 MB per image in `apex-mode=O2`)
+
 
 1. Configuring your environment (Prerequisites):
    
-    Note that SINet is only tested on Ubuntu OS with the following eviornments. It may work on other operating systems as well but we do not guarantee that it will.
+    Note that SINet is only tested on Ubuntu OS with the following environments. It may work on other operating systems as well but we do not guarantee that it will.
     
     + creating a virtual environment: `conda create -n SINet python=3.6`
     
-    + installing apex for accelerate training process with mixed precision.
+    + installing [NVIDIA-Apex](https://github.com/NVIDIA/apex) for accelerate training process with mixed precision. [(Instructions)](https://github.com/NVIDIA/apex#linux)
     
-    + installing necessary packages: `pip install -r requirements.txt`
+    + installing necessary packages: `pip install -r requirements.txt` (Under CUDA-10.0 and Cudnn-7.4)
 
 
 2. Downloading Training and Testing Sets:
@@ -118,15 +120,19 @@ a single GeForce RTX TITAN GPU of 24GB Memory. (Note that our model also support
 
 3. Training Configuration:
 
-    + changing your train img/gt directory in the `parser` of `MyTrain.py`: `--train_img_dir` for training image (_\*.jpg_) and 
-    `train_gt_dir` for training ground truth (_\*.png_) and the trained model will be saved per `--save_epoch` epochs in the `--save_model`
-    directory.
+    Coming soon ...
 
 3. Testing Configuration:
 
     + change your test img/gt directory in the `parser` of `MyTest.py`:
     replace your trained model directory (`--model_path`) and assign your the 
-    save dir of inferred mask (`--test_save`)
+    save directory of inferred mask (`--test_save`)
+    
+    + Note: We re-trained our model (marked as $\diamondsuit$ in the following figure) equipped with mixed training strategy of Apex lib (`mode=O1`) and get better performance in 40 epoch. Here we provide a new pre-trained model ([Baidu Drive]()/[Google Drive]()) here.
+
+    <p align="center">
+        <img src="Images/New_score.png"/> <br />
+    </p>
 
 4. Evaluation your trained model:
 
