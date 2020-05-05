@@ -44,6 +44,7 @@ Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouf
 
 ### 0.2. NEWS
 
+- [2020/05/05] Release testing code.
 - [2020/04/25] Training/Testing code will be updated soon ...
 
 ## 1. Task Relationship
