@@ -21,7 +21,6 @@ model = SINet_ResNet50().cuda()
 model.load_state_dict(torch.load(opt.model_path))
 model.eval()
 
-
 for dataset in ['CAMO', 'CHAMELEON', 'CPD1K', 'COD10K']:
     save_path = opt.test_save + dataset + '/'
     os.makedirs(save_path, exist_ok=True)

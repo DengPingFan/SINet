@@ -1,5 +1,6 @@
 # Camouflaged Object Detection (Accepted by Oral Presentation in CVPR, 2020)
 
+> Authors:
 > [Deng-Ping Fan](https://dpfan.net/), 
 > Ge-Peng Ji, 
 > Guolei Sun, 
@@ -15,8 +16,9 @@
 - For more information about Camouflaged Object Detection, please visit our [Project Page](http://dpfan.net/Camouflage/) 
 and read the [Manuscript (PDF)](http://dpfan.net/wp-content/uploads/2020CVPROralSINetCamouflaged-Object-Detection.pdf) / Supplementary Materials (PDF).
 
-- If you have any questions about the dataset or anythings, feel free to contact [Deng-Ping Fan](dengpfan@gmail.com) or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail.
-Please also cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) if you are using SINet or evaluation toolbox for your research!
+- If you have any questions about our paper, feel free to contact [Deng-Ping Fan](dengpfan@gmail.com) 
+or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail. And if you are using SINet or evaluation toolbox for your research, 
+please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 
 ### 0.1. Table of Contents
 
@@ -102,13 +104,16 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 1. Configuring your environment (Prerequisites):
    
-    Note that SINet is only tested on Ubuntu OS with the following environments. It may work on other operating systems as well but we do not guarantee that it will.
+    Note that SINet is only tested on Ubuntu OS with the following environments. 
+    It may work on other operating systems as well but we do not guarantee that it will.
     
-    + creating a virtual environment: `conda create -n SINet python=3.6`
+    + Creating a virtual environment in terminal: `conda create -n SINet python=3.6`.
     
-    + installing [NVIDIA-Apex](https://github.com/NVIDIA/apex) for accelerate training process with mixed precision. [(Instructions)](https://github.com/NVIDIA/apex#linux)
+    + Installing necessary packages: `pip install -r requirements.txt`.
     
-    + installing necessary packages: `pip install -r requirements.txt` (Under CUDA-10.0 and Cudnn-7.4)
+    + (Optional: only for training) Installing [NVIDIA-Apex](https://github.com/NVIDIA/apex) 
+    for accelerate training process with mixed precision. 
+    [(Instructions)](https://github.com/NVIDIA/apex#linux) (Under CUDA-10.0 and Cudnn-7.4).
 
 
 2. Downloading Training and Testing Sets:
@@ -125,11 +130,12 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 3. Testing Configuration:
 
-    + change your test img/gt directory in the `parser` of `MyTest.py`:
-    replace your trained model directory (`--model_path`) and assign your the 
+    + Usage of `MyTest.py`: replace your trained model directory (`--model_path`) and assign your the 
     save directory of inferred mask (`--test_save`)
     
-    + Note: We re-trained our model (marked as $\diamondsuit$ in the following figure) equipped with mixed training strategy of Apex lib (`mode=O1`) and get better performance in 40 epoch. Here we provide a new pre-trained model ([Baidu Drive]()/[Google Drive]()) here.
+    + Note that we re-trained our model (marked as $\diamondsuit$ in the following figure) equipped with mixed training 
+    strategy of Apex lib (`mode=O1`) and get better performance in 40 epoch. Here we provide a new pre-trained model 
+    ([Baidu Drive]()/[Google Drive]()) here.
 
     <p align="center">
         <img src="Images/New_score.png"/> <br />

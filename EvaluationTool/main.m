@@ -20,11 +20,11 @@ Models = {'2020-CVPR-SINet'};   % You can add other model like this format: Mode
 modelNum = length(Models);
 
 % ---- 2. Ground-truth Datasets Setting ----
-DataPath = '../Dataset/';
-Datasets = {'COD10K'};  % You may also need other datasets, such as Datasets = {'CAMO','CPD1K'};
+DataPath = '../Dataset/TestDataset/';
+Datasets = {'CHAMELEON', 'CAMO','CPD1K', 'COD10K'};  % You may also need other datasets, such as Datasets = {'CAMO','CPD1K'};
 
 % ---- 3. Results Save Path Setting ----
-ResDir = './EvaluationResults/Result-COD10K-test/';
+ResDir = './EvaluationResults/Result-CamObjDet/';
 ResName='_result.txt';  % You can change the result name.
 
 Thresholds = 1:-1/255:0;
@@ -46,7 +46,7 @@ for d = 1:datasetNum
     for m = 1:modelNum
         model = Models{m}   % print cur model name
 
-        gtPath = [DataPath dataset '/'];
+        gtPath = [DataPath dataset '/GT/'];
         camPath = [CamMapPath model '/' dataset '/'];
         
         imgFiles = dir([camPath '*.png']);  
@@ -56,7 +56,7 @@ for d = 1:datasetNum
         
         [threshold_Precion, threshold_Recall] = deal(zeros(imgNUM,length(Thresholds)));
         
-        [Smeasure, wFmeasure, adpFmeasure, adpEmeasure, MAE] =deal(zeros(1,imgNUM));
+        [Smeasure, wFmeasure, adpFmeasure, adpEmeasure, MAE] = deal(zeros(1,imgNUM));
         
         % Start parallel pool to bring out your computer potentials (for -> parfor)
         for i = 1:imgNUM
@@ -82,7 +82,7 @@ for d = 1:datasetNum
             if size(cam, 1) ~= size(gt, 1) || size(cam, 2) ~= size(gt, 2)
                 cam = imresize(cam,size(gt));
                 imwrite(cam,[camPath name]);
-                fprintf('Error occurs in the path: %s!!!\n', [camPath name]);
+                fprintf('[Size Mismatching] Error occurs in the path: %s!!!\n', [camPath name]);
             end
             
             cam = im2double(cam(:,:,1));
