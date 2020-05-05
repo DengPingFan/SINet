@@ -118,10 +118,10 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 2. Downloading Training and Testing Sets:
 
-    + download training dataset and move it into `.\your\path`, 
+    + download training dataset and move it into `./Dataset/TrainDataset/`, 
     which can be found in this [download link](https://drive.google.com/open?id=1aH9_0w3zCVoh9ttrU10xjCYcjuvPuzWY).
 
-    + downloading testing dataset and move it into `.\your\path`, 
+    + downloading testing dataset and move it into `./Dataset/TestDataset/`, 
     which can be found in this [download link](https://drive.google.com/open?id=1AeJBD-FemHSVdprC8_6BOi41Wt5KgMIt).
 
 3. Training Configuration:
@@ -130,12 +130,13 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 3. Testing Configuration:
 
-    + Usage of `MyTest.py`: replace your trained model directory (`--model_path`) and assign your the 
-    save directory of inferred mask (`--test_save`)
+    + After you download all the pre-trained model and testing data, just run `MyTest.py` to generate the final prediction map: 
+    replace your trained model directory (`--model_path`) and assign your the save directory of inferred mask (`--test_save`)
     
     + Note that we re-trained our model (marked as $\diamondsuit$ in the following figure) equipped with mixed training 
     strategy of Apex lib (`mode=O1`) and get better performance in 40 epoch. Here we provide a new pre-trained model 
-    ([Baidu Drive]()/[Google Drive]()) here.
+    ([Baidu Drive]()/[Google Drive]()) here. Later, I will try different backbones based SINet to improve performance 
+    and provide more comprehensive comparison.  
 
     <p align="center">
         <img src="Images/New_score.png"/> <br />
@@ -143,9 +144,9 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 4. Evaluation your trained model:
 
-    + One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), please follow this [instructions]().
-    
-    + Just run `main.m` to generate the evaluation results.
+    + One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
+    please follow this the instructions in `main.m` and just run it to generate the evaluation results in 
+    `./EvaluationTool/EvaluationResults/Result-CamObjDet/`.
 
 ## 3. Results
 
