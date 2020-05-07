@@ -135,7 +135,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     
     + Note that we re-trained our model (marked as $\diamondsuit$ in the following figure) equipped with mixed training 
     strategy of Apex lib (`mode=O1`) and get better performance in 40 epoch. Here we provide a new pre-trained model 
-    ([Baidu Drive]()/[Google Drive]()) here. Later, I will try different backbones based SINet to improve performance 
+    ([Baidu Drive]()/[Google Drive](https://drive.google.com/open?id=1iCkHXU55Or4gEtSqesijea6A5r8lVEYv)) here. Later, I will try different backbones based SINet to improve performance 
     and provide more comprehensive comparison.  
 
     <p align="center">
