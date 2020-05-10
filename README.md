@@ -206,7 +206,7 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 <p align="center">
     <img width="850" height="750" src="Images/SampleAquaticAnimals.png"/> <br />
     <em> 
-    Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (2/5)–Aquatic animals.
+    Figure 5: The extraction of individual samples including 20 sub-classes from our COD10K (2/5)–Aquatic animals.
     </em>
 </p>
 
