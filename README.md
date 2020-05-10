@@ -204,7 +204,7 @@ can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCj
 ## 4. Proposed COD10K Datasets
 
 <p align="center">
-    <img width="850" height="950" src="Images/SampleAquaticAnimals.png"/> <br />
+    <img width="850" height="750" src="Images/SampleAquaticAnimals.png"/> <br />
     <em> 
     Figure 5: The extraction of individual samples including 29 sub-classes from our COD10K (2/5)–Aquatic animals.
     </em>
