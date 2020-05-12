@@ -2,7 +2,7 @@
 
 > Authors:
 > [Deng-Ping Fan](https://dpfan.net/), 
-> Ge-Peng Ji, 
+> [Ge-Peng Ji](https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=en), 
 > Guolei Sun, 
 > [Ming-Ming Cheng](https://mmcheng.net/), 
 > [Jianbing Shen](http://iitlab.bit.edu.cn/mcislab/~shenjianbing), 
