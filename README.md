@@ -11,7 +11,7 @@
 ## 0. Preface
 
 - This repository includes detailed introduction, strong baseline 
-(Search & Identification Net, SINet), and one-key evaluation codes for a brand new filed named **_Camouflaged Object Detection (COD)_**.
+(Search & Identification Net, SINet), and one-key evaluation codes for a brand new field named **_Camouflaged Object Detection (COD)_**.
 
 - For more information about Camouflaged Object Detection, please visit our [Project Page](http://dpfan.net/Camouflage/) 
 and read the [Manuscript (PDF)](http://dpfan.net/wp-content/uploads/CVPR20_Oral_CamouflagedObjDet.pdf) / [ChineseVersion (PDF)](http://dpfan.net/wp-content/uploads/CamouflagedObjectDetection_Chinese.pdf).
