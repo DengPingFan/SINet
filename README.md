@@ -126,12 +126,14 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 3. Training Configuration:
 
-    Coming soon ...
+    + Assigning your customed path, like `--save_model`, `--train_img_dir`, and `--train_gt_dir` in `MyTrain.py`.
+    
+    + Just run it!
 
 3. Testing Configuration:
 
     + After you download all the pre-trained model and testing data, just run `MyTest.py` to generate the final prediction map: 
-    replace your trained model directory (`--model_path`) and assign your the save directory of inferred mask (`--test_save`)
+    replace your trained model directory (`--model_path`) and assign your the save directory of the inferred mask (`--test_save`)
     
     + Note that we re-trained our model (marked as $\diamondsuit$ in the following figure) equipped with mixed training 
     strategy of Apex lib (`mode=O1`) and get better performance in 40 epoch. Here we provide a new pre-trained model 
@@ -327,7 +329,7 @@ We also appreciate image annotators and
 
 ## 11. TODO LIST
 
-> If you want to improve the usability or any advices, please feel free to contact me directly ([E-mail](gepengai.ji@gmail.com)).
+> If you want to improve the usability or any piece of advice, please feel free to contact me directly ([E-mail](gepengai.ji@gmail.com)).
 
 - [ ] Support `NVIDIA APEX` training.
 
