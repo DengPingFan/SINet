@@ -20,12 +20,18 @@ and read the [Manuscript (PDF)](http://dpfan.net/wp-content/uploads/CVPR20_Oral_
 or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail. And if you are using SINet or evaluation toolbox for your research, 
 please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 
-### 0.1. Table of Contents
+### 0.1. :fire: NEWS :fire:
 
-- [Camouflaged Object Detection (Accepted by Oral Presentation in CVPR, 2020)](#camouflaged-object-detection--accepted-by-oral-presentation-in-cvpr--2020-)
+- [2020/05/15] :boom: Release training code.
+- [2020/05/05] :boom: Release testing code.
+- [2020/04/25] Training/Testing code will be updated soon ...
+
+### 0.2. Table of Contents
+
+- [Camouflaged Object Detection (CVPR2020)](#camouflaged-object-detection--cvpr2020-)
   * [0. Preface](#0-preface)
-    + [0.1. Table of Contents](#01-table-of-contents)
-    + [0.2. NEWS](#02-news)
+    + [0.1. :fire: NEWS :fire:](#01--fire--news--fire-)
+    + [0.2. Table of Contents](#02-table-of-contents)
   * [1. Task Relationship](#1-task-relationship)
   * [2. Proposed Baseline](#2-proposed-baseline)
     + [2.1. Overview](#21-overview)
@@ -43,12 +49,6 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
   * [10. Acknowledgements](#10-acknowledgements)
   * [11. TODO LIST](#11-todo-list)
   * [12. FAQ](#12-faq)
-
-### 0.2. :fire: NEWS :fire:
-
-- [2020/05/15] :boom: Release training code.
-- [2020/05/05] :boom: Release testing code.
-- [2020/04/25] Training/Testing code will be updated soon ...
 
 ## 1. Task Relationship
 
