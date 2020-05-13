@@ -44,8 +44,9 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
   * [11. TODO LIST](#11-todo-list)
   * [12. FAQ](#12-faq)
 
-### 0.2. NEWS
+### 0.2. :fire: NEWS :fire:
 
+- [2020/05/15] Release training code.
 - [2020/05/05] Release testing code.
 - [2020/04/25] Training/Testing code will be updated soon ...
 
