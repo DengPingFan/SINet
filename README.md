@@ -164,7 +164,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 ### 3.2. Quantitative Comparison (Overall/Sub-class)
 
 <p align="center">
-    <img src="Images/QuantitativeResults.png"/> <br />
+    <img src="Images/QuantitativeResults-new.png"/> <br />
     <em> 
     Table 1: Quantitative results on different datasets. The best scores are highlighted in bold.
     </em>
