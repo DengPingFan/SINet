@@ -120,10 +120,10 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 2. Downloading Training and Testing Sets:
 
     + download training dataset and move it into `./Dataset/TrainDataset/`, 
-    which can be found in this [download link]().
+    which can be found in this [download link].
 
     + downloading testing dataset and move it into `./Dataset/TestDataset/`, 
-    which can be found in this [download link]().
+    which can be found in this [download link].
 
 3. Training Configuration:
 
