@@ -22,7 +22,7 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
 
 ### 0.1. :fire: NEWS :fire:
 
-- [2020/05/15] :boom: Release training code.
+- [2020/05/15] training code is coming soon ...
 - [2020/05/05] :boom: Release testing code.
 - [2020/04/25] Training/Testing code will be updated soon ...
 
