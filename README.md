@@ -190,7 +190,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 ### 3.3. Results Download 
 
-1. Results of our SINet on four datasets can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCjBKSw8eJ9OaQ9_0kW6VtDZ6L).
+1. Results of our SINet can be found in this [download link](https://drive.google.com/open?id=1fHAwcUwCjBKSw8eJ9OaQ9_0kW6VtDZ6L).
 
 2. Performance of competing methods can be found in this [download link](https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J).
 
