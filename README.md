@@ -142,7 +142,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     and provide more comprehensive comparison.  
 
     <p align="center">
-        <img src="Images/New_score.png"/> <br />
+        <img src="Images/new_score_1.png"/> <br />
     </p>
 
 4. Evaluation your trained model:
