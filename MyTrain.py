@@ -28,7 +28,7 @@ if __name__ == "__main__":
                         help='every N epochs save your trained snapshot')
     parser.add_argument('--save_model', type=str, default='./Snapshot/2020-CVPR-SINet/')
     # Overall training dataset
-    # (COD10K-train + CAMO-train + [EXTRA](Detection of People With Camouflage Pattern Via Dense Deconvolution Network))
+    # (COD10K-train + CAMO-train + [EXTRA](Detection of People With Camouflage Pattern Via Dense Deconvolution Network, 2019'SPL))
     # can be downloaded in this [link](https://drive.google.com/open?id=1qNI4U8bY4bmRI4dqzU-6QqZDWBmgFXin)
     # Any questions please feel free to me via [E-mail](dengpfan@gmail.com)
     parser.add_argument('--train_img_dir', type=str, default='./Dataset/TrainDataset/Image/')
