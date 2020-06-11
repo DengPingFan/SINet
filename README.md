@@ -11,10 +11,12 @@
 ## 0. Preface
 
 - This repository includes detailed introduction, strong baseline 
-(Search & Identification Net, SINet), and one-key evaluation codes for a brand new field named **_Camouflaged Object Detection (COD)_**.
+(Search & Identification Net, SINet), and one-key evaluation codes for a brand new field named 
+**_Camouflaged Object Detection (COD)_**.
 
 - For more information about Camouflaged Object Detection, please visit our [Project Page](http://dpfan.net/Camouflage/) 
-and read the [Manuscript (PDF)](http://dpfan.net/wp-content/uploads/CVPR20_Oral_CamouflagedObjDet.pdf) / [ChineseVersion (PDF)](http://dpfan.net/wp-content/uploads/CamouflagedObjectDetection_Chinese-1.pdf).
+and read the [Manuscript (PDF)](http://dpfan.net/wp-content/uploads/CVPR20_Oral_CamouflagedObjDet.pdf) 
+/ [Chinese Version (PDF)](http://dpfan.net/wp-content/uploads/CamouflagedObjectDetection_Chinese-1.pdf).
 
 - If you have any questions about our paper, feel free to contact [Deng-Ping Fan](dengpfan@gmail.com) 
 or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail. And if you are using SINet or evaluation toolbox for your research, 
@@ -22,6 +24,8 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
 
 ### 0.1. :fire: NEWS :fire:
 
+- [2020/06/11] We re-organize the training set, listed in [2.2. Usage](#22-usage) section, please download it again.
+- [2020/06/11] :boom: Release train code.
 - [2020/05/15] training code is coming soon ...
 - [2020/05/05] :boom: Release testing code.
 - [2020/04/25] Training/Testing code will be updated soon ...
@@ -119,11 +123,11 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 2. Downloading Training and Testing Sets:
 
-    + download training dataset and move it into `./Dataset/TrainDataset/`, 
-    which can be found in this [download link].
+    + download **_NEW training dataset_** (COD10K-train + CAMO-train) and move it into `./Dataset/TrainDataset/`, 
+    which can be found in this [download link](https://drive.google.com/file/d/1D9bf1KeeCJsxxri6d2qAC7z6O1X_fxpt/view?usp=sharing).
 
-    + downloading testing dataset and move it into `./Dataset/TestDataset/`, 
-    which can be found in this [download link].
+    + downloading _**NEW testing dataset**_ (COD10K-test + CAMO-test + CHAMELEON) and move it into `./Dataset/TestDataset/`, 
+    which can be found in this [download link](https://drive.google.com/file/d/1QEGnP9O7HbN_2tH999O3HRIsErIVYalx/view?usp=sharing).
 
 3. Training Configuration:
 
@@ -138,7 +142,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     
     + Note that we re-trained our model (marked as $\diamondsuit$ in the following figure) equipped with mixed training 
     strategy of Apex lib (`mode=O1`) and get better performance in 40 epoch. Here we provide a new pre-trained model 
-    ([Baidu Drive]()/[Google Drive](https://drive.google.com/open?id=1iCkHXU55Or4gEtSqesijea6A5r8lVEYv)) here. Later, We will try different backbones based SINet to improve performance 
+    ([Baidu Drive (TBD)]()/[Google Drive](https://drive.google.com/open?id=1iCkHXU55Or4gEtSqesijea6A5r8lVEYv)) here. Later, We will try different backbones based SINet to improve performance 
     and provide more comprehensive comparison.  
 
     <p align="center">
