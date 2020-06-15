@@ -121,21 +121,22 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     [(Instructions)](https://github.com/NVIDIA/apex#linux) (Under CUDA-10.0 and Cudnn-7.4).
 
 
-2. Downloading Training and Testing Sets:
+<!--2. Downloading Training and Testing Sets: -->
+2. Downloading Testing Sets:
 
-    + download **_NEW training dataset_** (COD10K-train + CAMO-train) and move it into `./Dataset/TrainDataset/`, 
+<!--    + download **_NEW training dataset_** (COD10K-train + CAMO-train) and move it into `./Dataset/TrainDataset/`, 
     which can be found in this [download link](https://drive.google.com/file/d/1D9bf1KeeCJsxxri6d2qAC7z6O1X_fxpt/view?usp=sharing).
-
+-->
     + downloading _**NEW testing dataset**_ (COD10K-test + CAMO-test + CHAMELEON) and move it into `./Dataset/TestDataset/`, 
     which can be found in this [download link](https://drive.google.com/file/d/1QEGnP9O7HbN_2tH999O3HRIsErIVYalx/view?usp=sharing).
 
-3. Training Configuration:
+<!--3. Training Configuration:
 
     + Assigning your customed path, like `--save_model`, `--train_img_dir`, and `--train_gt_dir` in `MyTrain.py`.
     
-    + Just run it!
+    + Just run it! -->
 
-3. Testing Configuration:
+4. Testing Configuration:
 
     + After you download all the pre-trained model and testing data, just run `MyTest.py` to generate the final prediction map: 
     replace your trained model directory (`--model_path`) and assign your the save directory of the inferred mask (`--test_save`)
