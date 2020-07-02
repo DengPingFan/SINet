@@ -121,13 +121,13 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     [(Instructions)](https://github.com/NVIDIA/apex#linux) (Under CUDA-10.0 and Cudnn-7.4).
 
 
-<!--2. Downloading Training and Testing Sets: -->
-2. Downloading Testing Sets:
+2. Downloading Training and Testing Sets:
+<!--2. Downloading Testing Sets: -->
     + downloading _**NEW testing dataset**_ (COD10K-test + CAMO-test + CHAMELEON) and move it into `./Dataset/TestDataset/`, 
     which can be found in this [download link](https://drive.google.com/file/d/1QEGnP9O7HbN_2tH999O3HRIsErIVYalx/view?usp=sharing).
-<!--    + download **_NEW training dataset_** (COD10K-train + CAMO-train) and move it into `./Dataset/TrainDataset/`, 
-    which can be found in this [download link](https://drive.google.com/file/d/1D9bf1KeeCJsxxri6d2qAC7z6O1X_fxpt/view?usp=sharing).
--->
+    + download **_NEW training dataset_** (COD10K-train) which can be found in this [download link](https://drive.google.com/file/d/1D9bf1KeeCJsxxri6d2qAC7z6O1X_fxpt/view?usp=sharing).
+    <!--  + download **_NEW training dataset_** (COD10K-train + CAMO-train) and move it into `./Dataset/TrainDataset/`, 
+    which can be found in this [download link](https://drive.google.com/file/d/1D9bf1KeeCJsxxri6d2qAC7z6O1X_fxpt/view?usp=sharing). -->
     
 
 <!--3. Training Configuration:
