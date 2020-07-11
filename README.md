@@ -1,4 +1,4 @@
-# Camouflaged Object Detection (CVPR2020)
+# Camouflaged Object Detection (CVPR-2020)
 
 > Authors:
 > [Deng-Ping Fan](https://dpfan.net/), 
