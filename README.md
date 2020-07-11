@@ -23,7 +23,7 @@ or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail. And if you are using SINet or
 please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 
 ### 0.1. :fire: NEWS :fire:
-
+- [2020/07/11] Training code could be avaliable via email. (dengpfan@gmail.com)
 - [2020/06/11] We re-organize the training set, listed in [2.2. Usage](#22-usage) section, please download it again.
 <!-- - [2020/06/11] :boom: Release train code.
 - [2020/05/15] training code is coming soon ... -->
