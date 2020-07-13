@@ -316,7 +316,7 @@ or any Content, or any work product or data derived therefrom, for commercial pu
 
 ## 10. Acknowledgements
 
-We would like to thank authors of CHAMELEON, CPD1K, and CAMO dataset for their work. 
+We would like to thank authors of CHAMELEON, and CAMO dataset for their work. 
 They provide tremendous efforts in these dataset to boost this field. 
 We also appreciate image annotators and 
 [Wenguan Wang](https://scholar.google.com/citations?user=lZQRrrkAAAAJ&hl=zh-CN), 
