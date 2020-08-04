@@ -237,7 +237,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 ## 6. Potential Applications
 
 1. Medical (Polyp Segmentation and COVID-19 Infection Segmentation Diagnose)
-
+Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more details.
 <p align="center">
     <img src="Images/PolypSegmentation.png"/> <br />
     <em> 
