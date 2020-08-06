@@ -297,7 +297,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 6. Surface defect Detection
 
 <p align="center">
-    <img width="2014" height="320" src="Images/Surface defect Detection2.png"/> <br />
+    <img width="1500" height="320" src="Images/Surface defect Detection2.png"/> <br />
     <em> 
     Figure 15: Please refer to "A review of recent advances in surface defect detection using texture analysis techniques, 2008" for more details.
     </em>
