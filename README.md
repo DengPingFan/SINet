@@ -54,6 +54,7 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
   * [10. Acknowledgements](#10-acknowledgements)
   * [11. TODO LIST](#11-todo-list)
   * [12. FAQ](#12-faq)
+  * [13. License](#13-lic)
 
 ## 1. Task Relationship
 
