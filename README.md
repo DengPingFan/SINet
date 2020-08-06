@@ -293,6 +293,8 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
     </em>
 </p>
 
+6. Surface defect Detection
+
 ## 7. User Study Test
 
 [--> Click here to explore more interest things (YouTube Link) <--](https://youtu.be/Ovv_leSGKDw)
