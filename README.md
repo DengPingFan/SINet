@@ -15,8 +15,10 @@
 **_Camouflaged Object Detection (COD)_**.
 
 - For more information about Camouflaged Object Detection, please visit our [Project Page](http://dpfan.net/Camouflage/) 
-and read the [Manuscript (PDF)](http://dpfan.net/wp-content/uploads/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf) 
-/ [Chinese Version (PDF)](http://dpfan.net/wp-content/uploads/CamouflagedObjectDetection_Chinese-1.pdf).
+and read the [Manuscript (PDF)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf) 
+/ [Chinese Version (PDF)](http://dpfan.net/wp-content/uploads/CamouflagedObjectDetection_Chinese-1.pdf).  
+
+<!--http://dpfan.net/wp-content/uploads/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf -->
 
 - If you have any questions about our paper, feel free to contact [Deng-Ping Fan](dengpfan@gmail.com) 
 or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail. And if you are using SINet or evaluation toolbox for your research, 
