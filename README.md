@@ -249,7 +249,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 ​    
 
 <p align="center">
-    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/COVID'19-Infection.png"/> <br />
+    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/COVID19-Infection.png"/> <br />
     <em> 
     Figure 9: Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, 
     and consolidation, respectively. The images are collected from here. 
