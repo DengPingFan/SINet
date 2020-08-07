@@ -59,7 +59,7 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
 ## 1. Task Relationship
 
 <p align="center">
-    <img src="Images/TaskRelationship.png"/> <br />
+    <img src="http://dpfan.net/wp-content/uploads/TaskRelationship.png"/> <br />
     <em> 
     Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
     Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of 
