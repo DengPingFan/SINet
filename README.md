@@ -69,7 +69,7 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
 </p>
 
 <p align="center">
-    <img src="Images/CamouflagedTask.png"/> <br />
+    <img src="http://dpfan.net/wp-content/uploads/CamouflagedTask.png"/> <br />
     <em> 
     Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation 
     (which detects generic objects including stuff and things), (c) salient instance/object detection 
@@ -149,7 +149,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     and provide more comprehensive comparison.  
 
     <p align="center">
-        <img src="Images/new_score_1.png"/> <br />
+        <img src="http://dpfan.net/wp-content/uploads/new_score_1.png"/> <br />
     </p>
 
 4. Evaluation your trained model:
@@ -162,7 +162,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 ### 3.1. Qualitative Comparison
 <p align="center">
-    <img src="Images/CmpResults.png"/> <br />
+    <img src="http://dpfan.net/wp-content/uploads/CmpResults.png"/> <br />
     <em> 
     Figure 4: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
     </em>
@@ -171,7 +171,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 ### 3.2. Quantitative Comparison (Overall/Sub-class)
 
 <p align="center">
-    <img src="Images/QuantitativeResults-new.png"/> <br />
+    <img src="http://dpfan.net/wp-content/uploads/QuantitativeResults-new.png"/> <br />
     <em> 
     Table 1: Quantitative results on different datasets. The best scores are highlighted in bold.
     </em>
@@ -179,7 +179,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 
 <p align="center">
-    <img width="860" height="1060" src="Images/SubClassResults.png"/> <br />
+    <img width="860" height="1060" src="http://dpfan.net/wp-content/uploads/SubClassResults.png"/> <br />
     <em> 
     Table 2: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(1/2). The best
     score of each category is highlighted in bold.
@@ -188,7 +188,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 
 <p align="center">
-    <img width="850" height="1050" src="Images/SubClassResults-1.png"/> <br />
+    <img width="850" height="1050" src="http://dpfan.net/wp-content/uploads/SubClassResults-1.png"/> <br />
     <em> 
     Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
     score of each category is highlighted in bold.
@@ -204,14 +204,14 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 ## 4. Proposed COD10K Datasets
 
 <p align="center">
-    <img width="850" height="750" src="Images/SampleAquaticAnimals.png"/> <br />
+    <img width="850" height="750" src="http://dpfan.net/wp-content/uploads/SampleAquaticAnimals.png"/> <br />
     <em> 
     Figure 5: The extraction of individual samples including 20 sub-classes from our COD10K (2/5)–Aquatic animals.
     </em>
 </p>
 
 <p align="center">
-    <img width="850" height="680" src="Images/COD10K-2.png"/> <br />
+    <img width="850" height="680" src="http://dpfan.net/wp-content/uploads/COD10K-2.png"/> <br />
     <em> 
     Figure 6: Annotation diversity and meticulousness in the proposed COD10K dataset. Instead of only providing coarse-grained
     object-level annotations with the three major types of bias (e.g., Watermark embedded, Coarse annotation, and Occlusion) 
@@ -222,7 +222,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 </p>
 
 <p align="center">
-    <img width="850" height="440" src="Images/COD10K-3.png"/> <br />
+    <img width="850" height="440" src="http://dpfan.net/wp-content/uploads/COD10K-3.png"/> <br />
     <em> 
     Figure 7: Regularized quality control during our labeling reverification stage. Strictly adheres to the 
     four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.
@@ -241,7 +241,7 @@ Please refer to this link for more information: https://github.com/DengPingFan/C
 1. Medical (Polyp Segmentation and COVID-19 Infection Segmentation Diagnose)
 Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more details.
 <p align="center">
-    <img src="Images/PolypSegmentation.png"/> <br />
+    <img src="http://dpfan.net/wp-content/uploads/PolypSegmentation.png"/> <br />
     <em> 
     Figure 8: Lung Infection Segmentation.
     </em>
@@ -249,7 +249,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 ​    
 
 <p align="center">
-    <img width="600" height="230" src="Images/COVID'19-Infection.png"/> <br />
+    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/COVID'19-Infection.png"/> <br />
     <em> 
     Figure 9: Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, 
     and consolidation, respectively. The images are collected from here. 
@@ -261,7 +261,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 2. Agriculture (locust detection to prevent invasion)
 
 <p align="center">
-    <img width="600" height="230" src="Images/locust%20detection.png"/> <br />
+    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/locust%20detection.png"/> <br />
     <em> 
     Figure 10: Locust disaster detection.
     </em>
@@ -270,7 +270,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 3. Art (e.g., for photorealistic blending, or recreational art)
 
 <p align="center">
-    <img width="600" height="230" src="Images/CamouflagingFromMultiView.png"/> <br />
+    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/CamouflagingFromMultiView.png"/> <br />
     <em> 
     Figure 11: The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.)
     </em>
@@ -279,7 +279,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 4. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
 
 <p align="center">
-    <img width="600" height="230" src="Images/Search-and-Rescue.png"/> <br />
+    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/Search-and-Rescue.png"/> <br />
     <em> 
     Figure 13: Search and Rescue for saving lives.
     </em>
@@ -288,7 +288,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 5. Underwater Image Enhancement
 
 <p align="center">
-    <img width="2014" height="320" src="Images/UnderwaterEnhancment.png"/> <br />
+    <img width="2014" height="320" src="http://dpfan.net/wp-content/uploads/UnderwaterEnhancment.png"/> <br />
     <em> 
     Figure 14: Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details.
     </em>
@@ -297,7 +297,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 6. Surface defect Detection
 
 <p align="center">
-    <img width="1000" height="320" src="Images/Surface defect Detection2.png"/> <br />
+    <img width="1000" height="320" src="http://dpfan.net/wp-content/uploads/Surface defect Detection2.png"/> <br />
     <em> 
     Figure 15: Please refer to "A review of recent advances in surface defect detection using texture analysis techniques, 2008" for more details.
     </em>
