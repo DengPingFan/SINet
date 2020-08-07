@@ -261,7 +261,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 2. Agriculture (locust detection to prevent invasion)
 
 <p align="center">
-    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/locust%20detection.png"/> <br />
+    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/locust-detection.png"/> <br />
     <em> 
     Figure 10: Locust disaster detection.
     </em>
@@ -297,7 +297,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 6. Surface defect Detection
 
 <p align="center">
-    <img width="1000" height="320" src="http://dpfan.net/wp-content/uploads/Surface defect Detection2.png"/> <br />
+    <img width="1000" height="320" src="http://dpfan.net/wp-content/uploads/Surface-defect-Detection2.png"/> <br />
     <em> 
     Figure 15: Please refer to "A review of recent advances in surface defect detection using texture analysis techniques, 2008" for more details.
     </em>
