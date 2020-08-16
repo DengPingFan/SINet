@@ -230,7 +230,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     </em>
 </p>
 
-> COD10K datasets: coming soon.
+> COD10K datasets: [Baidu](https://pan.baidu.com/s/15GnPrMd6TGzMufEQ9IC66Q) aq4i | [Google](https://drive.google.com/file/d/1pVq1rWXCwkMbEZpTt4-yUQ3NsnQd_DNY/view?usp=sharing)
 
 ## 5. Evaluation Toolbox
 
