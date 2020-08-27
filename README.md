@@ -25,6 +25,7 @@ or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail. And if you are using SINet or
 please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 
 ### 0.1. :fire: NEWS :fire:
+- [2020/08/27] Describtion update (Baseline models are trained using the training setting (iii) rather than (iv)). 
 - [2020/08/05] Online demo has been released! (http://mc.nankai.edu.cn/cod).
 - [2020/07/11] Training code could be avaliable via email (dengpfan@gmail.com). Please provide your Name & Institution.
 - [2020/06/11] We re-organize the training set, listed in [2.2. Usage](#22-usage) section, please download it again.
