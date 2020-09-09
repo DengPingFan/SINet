@@ -41,6 +41,7 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
   * [0. Preface](#0-preface)
     + [0.1. :fire: NEWS :fire:](#01--fire--news--fire-)
     + [0.2. Table of Contents](#02-table-of-contents)
+    + [0.3. File Structure](#03-file-structure)
   * [1. Task Relationship](#1-task-relationship)
   * [2. Proposed Baseline](#2-proposed-baseline)
     + [2.1. Overview](#21-overview)
