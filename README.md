@@ -170,7 +170,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 <!--2. Downloading Testing Sets: -->
 2. Downloading Training and Testing Sets:
     + downloading _**NEW testing dataset**_ (COD10K-test + CAMO-test + CHAMELEON) and move it into `./Dataset/TestDataset/`, 
-    which can be found in this [Google Drive link](https://drive.google.com/file/d/1QEGnP9O7HbN_2tH999O3HRIsErIVYalx/view?usp=sharing) or [Baidu Pan link](xx).
+    which can be found in this [Google Drive link](https://drive.google.com/file/d/1QEGnP9O7HbN_2tH999O3HRIsErIVYalx/view?usp=sharing) or [Baidu Pan link](https://pan.baidu.com/s/143yHFLAabMBT7wgXA0LrMg) fetch code: z83z.
     
     + download **_NEW training dataset_** (COD10K-train) which can be found in this [Google Drive link](https://drive.google.com/file/d/1D9bf1KeeCJsxxri6d2qAC7z6O1X_fxpt/view?usp=sharing) or [Baidu Pan link] ().  Please refer to our original paper for other training data. 
     
