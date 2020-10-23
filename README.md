@@ -26,7 +26,7 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
 
 ### 0.1. :fire: NEWS :fire:
 - [2020/10/22] Training code could be avaliable via email (dengpfan@gmail.com). Please provide your Name & Institution.
-- [2020/10/22] For eq (4): j = k+1, M -> j = m, k-1.
+- [2020/10/22] For eq (4): j = k+1, M -> j = m, k-1. (note that m is a specific layer, in our paper it should be equal to 1).
 - [2020/09/09] SINet is the best method on the open benchmark website (https://paperswithcode.com/task/camouflaged-object-segmentation).
 - [2020/08/27] Updated the describtion in Table 3 (Baseline models are trained using the training setting (iii) rather than (iv)). 
 - [2020/08/05] Online demo has been released! (http://mc.nankai.edu.cn/cod).
