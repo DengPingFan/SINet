@@ -18,7 +18,7 @@ def _get_kernel(kernlen=16, nsig=3):
 def min_max_norm(in_):
     """
         normalization
-    :param in_:
+    :param: in_
     :return:
     """
     max_ = in_.max(3)[0].max(2)[0].unsqueeze(2).unsqueeze(3).expand_as(in_)
@@ -28,7 +28,9 @@ def min_max_norm(in_):
 
 
 class SA(nn.Module):
-    # holistic attention src
+    """
+        holistic attention src
+    """
     def __init__(self):
         super(SA, self).__init__()
         gaussian_kernel = np.float32(_get_kernel(31, 4))
