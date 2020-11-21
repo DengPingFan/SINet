@@ -99,7 +99,7 @@ for d = 1:datasetNum
             [~, ~, adpFmeasure(i)] = Fmeasure_calu(cam,double(gt),size(gt),threshold);
             
             Bi_cam = zeros(size(cam));
-            Bi_cam(cam>threshold)=1;
+            Bi_cam(cam>=threshold)=1;
             adpEmeasure(i) = Enhancedmeasure(Bi_cam, gt);
             
             [threshold_F, threshold_E]  = deal(zeros(1, length(Thresholds)));
@@ -109,7 +109,7 @@ for d = 1:datasetNum
                 [threshold_Pr(t), threshold_Rec(t), threshold_F(t)] = Fmeasure_calu(cam,double(gt),size(gt),threshold);
                 
                 Bi_cam = zeros(size(cam));
-                Bi_cam(cam>threshold)=1;
+                Bi_cam(cam>=threshold)=1;
                 threshold_E(t) = Enhancedmeasure(Bi_cam,gt);
             end
             
