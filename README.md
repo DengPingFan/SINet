@@ -281,7 +281,9 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 ## 5. Evaluation Toolbox
 
 We provide complete and fair one-key evaluation toolbox for benchmarking within a uniform standard. 
-Please refer to this link for more information: https://github.com/DengPingFan/CODToolbox
+Please refer to this link for more information:
+Matlab version: https://github.com/DengPingFan/CODToolbox
+Python version: https://github.com/lartpang/PySODMetrics
 
 ## 6. Potential Applications
 
