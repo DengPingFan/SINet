@@ -1,5 +1,7 @@
 # Camouflaged Object Detection (CVPR2020-Oral)
 
+<img align="right" src="Images/QR_Code.jpg" width="250px" />
+
 > Authors:
 > [Deng-Ping Fan](https://dpfan.net/), 
 > [Ge-Peng Ji](https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=en), 
@@ -7,6 +9,9 @@
 > [Ming-Ming Cheng](https://mmcheng.net/), 
 > [Jianbing Shen](http://iitlab.bit.edu.cn/mcislab/~shenjianbing), 
 > [Ling Shao](http://www.inceptioniai.org/).
+
+Welcome to joint the COD community!
+
 
 ## 0. Preface
 
