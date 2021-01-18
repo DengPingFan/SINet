@@ -11,8 +11,6 @@
 > [Ling Shao](http://www.inceptioniai.org/).
 
 
-
-
 ## 0. Preface
 
 - Welcome to joint the COD community! Please scan the QR-code (see right figure) in the WeChat App.
@@ -113,12 +111,13 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
 ## 1. Task Relationship
 
 <p align="center">
-    <img src="http://dpfan.net/wp-content/uploads/TaskRelationship.png"/> <br />
+    <img src="./Images/Relationship.png"/> <br />
     <em> 
-    Figure 1: Task relationship. One of the most popular directions in computer vision is generic object detection. 
-    Note that generic objects can be either salient or camouflaged; camouflaged objects can be seen as difficult cases of 
-    generic objects. Typical generic object detection tasks include semantic segmentation and panoptic 
-    segmentation (see Fig. 2 b).
+    Figure 1: Task relationship. Given an input image (a), we present the ground-truth for (b) panoptic segmentation
+    (which detects generic objects including stuff and things), (c) salient object detection (which detects isolated 
+    objects that grasp human attention), and (d) the proposed concealed object detection task, where the goal is to 
+    detect objects that have a similar pattern to the natural habitat. In this example, the boundaries of the two 
+    butterflies are blended with the bananas, making them difficult to identify..
     </em>
 </p>
 
