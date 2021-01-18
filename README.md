@@ -1,7 +1,5 @@
 # Camouflaged Object Detection (CVPR2020-Oral)
 
-<img align="right" src="Images/QR_Code.jpg" width="350px" />
-
 > Authors:
 > [Deng-Ping Fan](https://dpfan.net/), 
 > [Ge-Peng Ji](https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=en), 
@@ -13,7 +11,8 @@
 
 ## 0. Preface
 
-- Welcome to joint the COD community! Please scan the QR-code (see right figure) in the WeChat App.
+- Welcome to joint the COD community! We create a group chat in WeChat, you can join it via adding contact 
+(WeChat ID: CVer222). Please attach your affiliations.
 
 - This repository includes detailed introduction, strong baseline 
 (Search & Identification Net, SINet), and one-key evaluation codes for 
