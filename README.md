@@ -29,7 +29,7 @@ or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail. And if you are using SINet or
 please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
 
 ### 0.1. :fire: NEWS :fire:
-- [2021/07/07] :boom: The latest enhanced version of SINet is coming, which is accepted at IEEE TPAMI 2021 ([Paper](https://ieeexplore.ieee.org/document/9444794) | [GitHub](https://github.com/GewelsJI/SINet-V2)). The SINet-V2 is surpass the performance of existing COD methods by a large margin, while maintaining real-time inference.
+- [2021/07/07] :boom: **The latest enhanced version of SINet is coming**, which is accepted at IEEE TPAMI 2021 ([Paper](https://ieeexplore.ieee.org/document/9444794) | [GitHub](https://github.com/GewelsJI/SINet-V2)). The SINet-V2 is surpass the performance of existing COD methods by a large margin, while maintaining real-time inference.
 - [2020/10/22] :boom: **Training code could be avaliable via email (dengpfan@gmail.com).** Please provide your Name & Institution. Please note the code can be only used for research purpose.
 - [2020/11/21] Upadted evaluated tool: Bi_cam(cam>threshold)=1 -> Bi_cam(cam>=threshold)=1;
 - [2020/10/22] For eq (4): j = k+1, M -> j = m, k-1. (note that m is a specific layer, in our paper it should be equal to 1).
