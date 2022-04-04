@@ -1,7 +1,7 @@
 # Camouflaged Object Detection (CVPR2020-Oral)
 
 > Authors:
-> [Deng-Ping Fan](https://dpfan.net/), 
+> [Deng-Ping Fan](https://dengpingfan.github.io/), 
 > [Ge-Peng Ji](https://scholar.google.com/citations?user=oaxKYKUAAAAJ&hl=en), 
 > [Guolei Sun](https://github.com/GuoleiSun), 
 > [Ming-Ming Cheng](https://mmcheng.net/), 
