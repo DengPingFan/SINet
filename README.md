@@ -20,7 +20,7 @@
 
 - For more information about Camouflaged Object Detection, please visit our [Project Page](http://dpfan.net/Camouflage/) 
 and read the [Manuscript (PDF)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf) 
-/ [Chinese Version (PDF)](http://dpfan.net/wp-content/uploads/CamouflagedObjectDetection_Chinese-1.pdf).  
+/ [Chinese Version (PDF)](https://dengpingfan.github.io/papers/[2020][CVPR]COD_Chinese.pdf).  
 
 <!--http://dpfan.net/wp-content/uploads/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf -->
 
@@ -301,7 +301,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 ​    
 
 <p align="center">
-    <img width="600" height="230" src="./Images/COVID19-Infection.png"/> <br />
+    <img width="600" height="230" src="./Images/COVID'19-Infection.png"/> <br />
     <em> 
     Figure 9: Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, 
     and consolidation, respectively. The images are collected from here. 
@@ -310,10 +310,10 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 </p>
 
 
-2. Agriculture (locust detection to prevent invasion)
+1. Agriculture (locust detection to prevent invasion)
 
 <p align="center">
-    <img width="600" height="230" src="./Images/locust-detection.png"/> <br />
+    <img width="600" height="230" src="./Images/locust detection.png"/> <br />
     <em> 
     Figure 10: Locust disaster detection.
     </em>
