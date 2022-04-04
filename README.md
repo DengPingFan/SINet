@@ -25,8 +25,7 @@ and read the [Manuscript (PDF)](https://openaccess.thecvf.com/content_CVPR_2020/
 <!--http://dpfan.net/wp-content/uploads/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.pdf -->
 
 - If you have any questions about our paper, feel free to contact [Deng-Ping Fan](dengpfan@gmail.com) 
-or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail. And if you are using SINet or evaluation toolbox for your research, 
-please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.txt)) 
+or [Ge-Peng Ji](gepengai.ji@gmail.com) via E-mail. And if you are using SINet or evaluation toolbox for your research, please cite this paper.
 
 ### 0.1. :fire: NEWS :fire:
 - [2021/07/07] :boom: **The latest enhanced version of SINet is coming**, which is accepted at IEEE TPAMI 2021 ([Paper](https://ieeexplore.ieee.org/document/9444794) | [GitHub](https://github.com/GewelsJI/SINet-V2)). The SINet-V2 can surpass the performance of existing COD methods by a large margin, while maintaining real-time inference.
@@ -37,35 +36,33 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
 - [2020/08/27] Updated the describtion in Table 3 (Baseline models are trained using the training setting (iii) rather than (iv)). 
 - [2020/08/05] Online demo has been released! (http://mc.nankai.edu.cn/cod).
 - [2020/06/11] We re-organize the training set, listed in [2.2. Usage](#22-usage) section, please download it again.
-<!-- - [2020/06/11] :boom: Release train code.
-- [2020/05/15] training code is coming soon ... -->
 - [2020/05/05] :boom: Release testing code.
 - [2020/04/25] Training/Testing code will be updated soon ...
 
 ### 0.2. Table of Contents
 
-- [Camouflaged Object Detection (CVPR2020)](#camouflaged-object-detection--cvpr2020-)
-  * [0. Preface](#0-preface)
-    + [0.1. :fire: NEWS :fire:](#01--fire--news--fire-)
-    + [0.2. Table of Contents](#02-table-of-contents)
-    + [0.3. File Structure](#03-file-structure)
-  * [1. Task Relationship](#1-task-relationship)
-  * [2. Proposed Baseline](#2-proposed-baseline)
-    + [2.1. Overview](#21-overview)
-    + [2.2. Usage](#22-usage)
-  * [3. Results](#3-results)
-    + [3.1. Qualitative Comparison](#31-qualitative-comparison)
-    + [3.2. Quantitative Comparison (Overall/Sub-class)](#32-quantitative-comparison--overall-sub-class-)
-    + [3.3. Results Download](#33-results-download)
-  * [4. Proposed COD10K Datasets](#4-proposed-cod10k-datasets)
-  * [5. Evaluation Toolbox](#5-evaluation-toolbox)
-  * [6. Potential Applications](#6-potential-applications)
-  * [7. User Study Test](#7-user-study-test)
-  * [8. Citation](#8-citation)
-  * [9. LICENSE](#9-license)
-  * [10. Acknowledgements](#10-acknowledgements)
-  * [11. TODO LIST](#11-todo-list)
-  * [12. FAQ](#12-faq)
+- [Camouflaged Object Detection (CVPR2020-Oral)](#camouflaged-object-detection-cvpr2020-oral)
+  - [0. Preface](#0-preface)
+    - [0.1. :fire: NEWS :fire:](#01-fire-news-fire)
+    - [0.2. Table of Contents](#02-table-of-contents)
+    - [0.3. File Structure](#03-file-structure)
+  - [1. Task Relationship](#1-task-relationship)
+  - [2. Proposed Baseline](#2-proposed-baseline)
+    - [2.1. Overview](#21-overview)
+    - [2.2. Usage](#22-usage)
+  - [3. Results](#3-results)
+    - [3.1. Qualitative Comparison](#31-qualitative-comparison)
+    - [3.2. Quantitative Comparison (Overall/Sub-class)](#32-quantitative-comparison-overallsub-class)
+    - [3.3. Results Download](#33-results-download)
+  - [4. Proposed COD10K Datasets](#4-proposed-cod10k-datasets)
+  - [5. Evaluation Toolbox](#5-evaluation-toolbox)
+  - [6. Potential Applications](#6-potential-applications)
+  - [7. User Study Test](#7-user-study-test)
+  - [8. Citation](#8-citation)
+  - [9. LICENSE](#9-license)
+  - [10. Acknowledgements](#10-acknowledgements)
+  - [11. TODO LIST](#11-todo-list)
+  - [12. FAQ](#12-faq)
 
 ### 0.3. File Structure
 	SINet
@@ -122,7 +119,7 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
 </p>
 
 <p align="center">
-    <img src="http://dpfan.net/wp-content/uploads/CamouflagedTask.png"/> <br />
+    <img src="./Images/CamouflagedTask.png"/> <br />
     <em> 
     Figure 2: Given an input image (a), we present the ground-truth for (b) panoptic segmentation 
     (which detects generic objects including stuff and things), (c) salient instance/object detection 
@@ -144,7 +141,7 @@ please cite this paper ([BibTeX](http://dpfan.net/wp-content/uploads/Camouflage.
 ### 2.1. Overview
 
 <p align="center">
-    <img src="Images/SINet.png"/> <br />
+    <img src="./Images/SINet.png"/> <br />
     <em> 
     Figure 3: Overview of our SINet framework, which consists of two main components: the receptive field (RF) 
     and partial decoder component (PDC). The RF is introduced to mimic the structure of RFs in the human visual system. 
@@ -202,7 +199,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     and provide more comprehensive comparison.  
 
     <p align="center">
-        <img src="http://dpfan.net/wp-content/uploads/new_score_1.png"/> <br />
+        <img src="./Images/new_score_1.png"/> <br />
     </p>
 
 4. Evaluation your trained model:
@@ -215,7 +212,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 ### 3.1. Qualitative Comparison
 <p align="center">
-    <img src="http://dpfan.net/wp-content/uploads/CmpResults.png"/> <br />
+    <img src="./Images/CmpResults.png"/> <br />
     <em> 
     Figure 4: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
     </em>
@@ -224,7 +221,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 ### 3.2. Quantitative Comparison (Overall/Sub-class)
 
 <p align="center">
-    <img src="http://dpfan.net/wp-content/uploads/QuantitativeResults-new.png"/> <br />
+    <img src="./Images/QuantitativeResults-new.png"/> <br />
     <em> 
     Table 1: Quantitative results on different datasets. The best scores are highlighted in bold.
     </em>
@@ -232,7 +229,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 
 <p align="center">
-    <img width="860" height="1060" src="http://dpfan.net/wp-content/uploads/SubClassResults.png"/> <br />
+    <img width="860" height="1060" src="./Images/SubClassResults.png"/> <br />
     <em> 
     Table 2: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(1/2). The best
     score of each category is highlighted in bold.
@@ -241,7 +238,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 
 
 <p align="center">
-    <img width="850" height="1050" src="http://dpfan.net/wp-content/uploads/SubClassResults-1.png"/> <br />
+    <img width="850" height="1050" src="./Images/SubClassResults-1.png"/> <br />
     <em> 
     Table 3: Quantitative results of Structure-measure (Sα) for each sub-class in our COD10K dataset-(2/2). The best
     score of each category is highlighted in bold.
@@ -257,14 +254,14 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 ## 4. Proposed COD10K Datasets
 
 <p align="center">
-    <img width="850" height="750" src="http://dpfan.net/wp-content/uploads/SampleAquaticAnimals.png"/> <br />
+    <img width="850" height="750" src="./Images/SampleAquaticAnimals.png"/> <br />
     <em> 
     Figure 5: The extraction of individual samples including 20 sub-classes from our COD10K (2/5)–Aquatic animals.
     </em>
 </p>
 
 <p align="center">
-    <img width="850" height="680" src="http://dpfan.net/wp-content/uploads/COD10K-2.png"/> <br />
+    <img width="850" height="680" src="./Images/COD10K-2.png"/> <br />
     <em> 
     Figure 6: Annotation diversity and meticulousness in the proposed COD10K dataset. Instead of only providing coarse-grained
     object-level annotations with the three major types of bias (e.g., Watermark embedded, Coarse annotation, and Occlusion) 
@@ -275,7 +272,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 </p>
 
 <p align="center">
-    <img width="850" height="440" src="http://dpfan.net/wp-content/uploads/COD10K-3.png"/> <br />
+    <img width="850" height="440" src="./Images/COD10K-3.png"/> <br />
     <em> 
     Figure 7: Regularized quality control during our labeling reverification stage. Strictly adheres to the 
     four major criteria of rejection or acceptance to near the ceiling of annotation accuracy.
@@ -296,7 +293,7 @@ Python version: https://github.com/lartpang/PySODMetrics
 1. Medical (Polyp Segmentation and COVID-19 Infection Segmentation Diagnose)
 Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more details.
 <p align="center">
-    <img src="http://dpfan.net/wp-content/uploads/PolypSegmentation.png"/> <br />
+    <img src="./Images/PolypSegmentation.png"/> <br />
     <em> 
     Figure 8: Lung Infection Segmentation.
     </em>
@@ -304,7 +301,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 ​    
 
 <p align="center">
-    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/COVID19-Infection.png"/> <br />
+    <img width="600" height="230" src="./Images/COVID19-Infection.png"/> <br />
     <em> 
     Figure 9: Example of COVID-19 infected regions in CT axial slice, where the red and green regions denote the GGO, 
     and consolidation, respectively. The images are collected from here. 
@@ -316,7 +313,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 2. Agriculture (locust detection to prevent invasion)
 
 <p align="center">
-    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/locust-detection.png"/> <br />
+    <img width="600" height="230" src="./Images/locust-detection.png"/> <br />
     <em> 
     Figure 10: Locust disaster detection.
     </em>
@@ -325,7 +322,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 3. Art (e.g., for photorealistic blending, or recreational art)
 
 <p align="center">
-    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/CamouflagingFromMultiView.png"/> <br />
+    <img width="600" height="230" src="./Images/CamouflagingFromMultiView.png"/> <br />
     <em> 
     Figure 11: The answer can be found at here (Camouflaging an Object from Many Viewpoints, CVPR 2014.)
     </em>
@@ -334,7 +331,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 4. Computer Vision (e.g., for search-and-rescue work, or rare species discovery)
 
 <p align="center">
-    <img width="600" height="230" src="http://dpfan.net/wp-content/uploads/Search-and-Rescue.png"/> <br />
+    <img width="600" height="230" src="./Images/Search-and-Rescue.png"/> <br />
     <em> 
     Figure 13: Search and Rescue for saving lives.
     </em>
@@ -343,7 +340,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 5. Underwater Image Enhancement
 
 <p align="center">
-    <img width="2014" height="320" src="http://dpfan.net/wp-content/uploads/UnderwaterEnhancment.png"/> <br />
+    <img width="2014" height="320" src="./Images/UnderwaterEnhancment.png"/> <br />
     <em> 
     Figure 14: Please refer to "An Underwater Image Enhancement Benchmark Dataset and Beyond, TIP2019" for more details.
     </em>
@@ -352,7 +349,7 @@ Please refer to this page (https://github.com/DengPingFan/Inf-Net) for more deta
 6. Surface defect Detection
 
 <p align="center">
-    <img width="1000" height="320" src="http://dpfan.net/wp-content/uploads/Surface-defect-Detection2.png"/> <br />
+    <img width="1000" height="320" src="./Images/Surface defect Detection2.png"/> <br />
     <em> 
     Figure 15: Please refer to "A review of recent advances in surface defect detection using texture analysis techniques, 2008" for more details.
     </em>
